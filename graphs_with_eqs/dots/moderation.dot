@@ -1,0 +1,14 @@
+strict digraph  {
+	"['moderate']" -> "['far']";
+	"['moderate']" -> "['radical']";
+	"['moderate']" -> "['average', 'middle-of-the-road']";
+	"['moderate']" -> "['conservative']";
+	"['far']" -> "['excessive', 'extreme']";
+	"['average', 'middle-of-the-road']" -> "['extraordinary']";
+	"['conservative']" -> "['extraordinary']";
+	"['extraordinary']" -> "['indifferent']";
+	"['indifferent']" -> "['excessive', 'extreme']";
+	"['fair']" -> "['far']";
+	"['fair']" -> "['radical']";
+	"['fair']" -> "['conservative']";
+}

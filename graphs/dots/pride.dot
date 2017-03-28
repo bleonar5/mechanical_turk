@@ -1,0 +1,8 @@
+strict digraph  {
+	"['house-proud']" -> "['beaming']";
+	"['beaming']" -> "['shabby-genteel']";
+	"['shabby-genteel']" -> "['dignified', 'disdainful']";
+	"['arrogant', 'overproud']" -> "['proud']";
+	"['proud']" -> "['pleased']";
+	"['pleased']" -> "['house-proud']";
+}

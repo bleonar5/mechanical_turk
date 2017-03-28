@@ -1,0 +1,4 @@
+strict digraph  {
+	"['miscellaneous', 'varicolored', 'variform', 'various']" -> "['unvarying']";
+	"['omnifarious']" -> "['miscellaneous', 'varicolored', 'variform', 'various']";
+}

@@ -1,0 +1,6 @@
+strict digraph  {
+	"['commonsense', 'reasonable', 'sound', 'tenable']" -> "['counterintuitive']";
+	"['commonsense', 'reasonable', 'sound', 'tenable']" -> "['undue']";
+	"['counterintuitive']" -> "['senseless', 'unreasonable']";
+	"['undue']" -> "['indefensible']";
+}

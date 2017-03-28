@@ -1,0 +1,13 @@
+strict digraph  {
+	"['generous']" -> "['benevolent']";
+	"['generous']" -> "['unselfish']";
+	"['generous']" -> "['lavish']";
+	"['benevolent']" -> "['grudging']";
+	"['benevolent']" -> "['cheap']";
+	"['unselfish']" -> "['stingy']";
+	"['lavish']" -> "['stingy']";
+	"['lavish']" -> "['closefisted']";
+	"['grudging']" -> "['stingy']";
+	"['grudging']" -> "['closefisted']";
+	"['cheap']" -> "['stingy']";
+}

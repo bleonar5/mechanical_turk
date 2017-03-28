@@ -1,0 +1,14 @@
+strict digraph  {
+	"['pithy']" -> "['brief']";
+	"['concise']" -> "['brief']";
+	"['redundant']" -> "['summary']";
+	"['summary']" -> "['cryptic']";
+	"['tedious']" -> "['pithy']";
+	"['tedious']" -> "['summary']";
+	"['tedious']" -> "['curt']";
+	"['curt']" -> "['concise']";
+	"['cryptic']" -> "['diffuse']";
+	"['cryptic']" -> "['prolix']";
+	"['diffuse']" -> "['telegraphic']";
+	"['prolix']" -> "['telegraphic']";
+}

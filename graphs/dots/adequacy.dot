@@ -1,0 +1,7 @@
+strict digraph  {
+	"['lacking']" -> "['incapable']";
+	"['equal']" -> "['short-handed']";
+	"['short-handed']" -> "['lacking']";
+	"['short-handed']" -> "['inadequate']";
+	"['capable', 'competent']" -> "['equal']";
+}

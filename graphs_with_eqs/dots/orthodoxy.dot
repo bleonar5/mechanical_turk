@@ -1,0 +1,11 @@
+strict digraph  {
+	"['sanctioned']" -> "['antiheretical']";
+	"['sanctioned']" -> "['reformed']";
+	"['antiheretical']" -> "['recusant']";
+	"['antiheretical']" -> "['iconoclastic']";
+	"['recusant']" -> "['dissident', 'unorthodox']";
+	"['recusant']" -> "['nonconformist']";
+	"['iconoclastic']" -> "['dissident', 'unorthodox']";
+	"['iconoclastic']" -> "['nonconformist']";
+	"['conformist', 'established', 'orthodox', 'traditional', 'unreformed']" -> "['sanctioned']";
+}

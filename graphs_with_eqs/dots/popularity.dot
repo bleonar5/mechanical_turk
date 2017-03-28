@@ -1,0 +1,4 @@
+strict digraph  {
+	"['popular', 'touristed']" -> "['less-traveled']";
+	"['best-selling', 'fashionable', 'favorite', 'hot']" -> "['popular', 'touristed']";
+}

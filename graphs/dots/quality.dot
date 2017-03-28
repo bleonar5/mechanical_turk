@@ -1,0 +1,9 @@
+strict digraph  {
+	"['select', 'shining']" -> "['common']";
+	"['select', 'shining']" -> "['base']";
+	"['common']" -> "['bad', 'cheap']";
+	"['base']" -> "['bad', 'cheap']";
+	"['supreme']" -> "['select', 'shining']";
+	"['excellent', 'greatest', 'quality', 'superior']" -> "['brilliant', 'outstanding']";
+	"['brilliant', 'outstanding']" -> "['supreme']";
+}

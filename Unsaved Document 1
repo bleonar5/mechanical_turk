@@ -1,0 +1,6 @@
+function round(x) {
+					if(Math.ceil(x/25) * 25 - x > 12)
+						return Math.floor(x/25) * 25;
+					else
+						return Math.ceil(x/25) * 25;
+				}

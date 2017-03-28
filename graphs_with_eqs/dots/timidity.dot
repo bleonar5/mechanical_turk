@@ -1,0 +1,4 @@
+strict digraph  {
+	"['coy', 'fearful']" -> "['bashful', 'timid']";
+	"['intimidated']" -> "['bashful', 'timid']";
+}

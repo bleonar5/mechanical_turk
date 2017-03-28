@@ -1,0 +1,10 @@
+strict digraph  {
+	"['eye-deceiving']" -> "['hallucinatory']";
+	"['eye-deceiving']" -> "['dreamed', 'imaginary', 'pretend']";
+	"['dreamed', 'imaginary', 'pretend']" -> "['fictional', 'unreal']";
+	"['actual', 'real']" -> "['eye-deceiving']";
+	"['actual', 'real']" -> "['envisioned']";
+	"['envisioned']" -> "['hallucinatory']";
+	"['envisioned']" -> "['dreamed', 'imaginary', 'pretend']";
+	"['fictional', 'unreal']" -> "['mythological']";
+}

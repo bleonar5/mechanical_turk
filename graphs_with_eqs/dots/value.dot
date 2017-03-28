@@ -1,0 +1,6 @@
+strict digraph  {
+	"['powdery']" -> "['pale', 'white']";
+	"['pastel']" -> "['pale', 'white']";
+	"['black', 'dark']" -> "['pale', 'white']";
+	"['light']" -> "['pale', 'white']";
+}

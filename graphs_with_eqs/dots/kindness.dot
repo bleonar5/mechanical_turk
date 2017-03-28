@@ -1,0 +1,5 @@
+strict digraph  {
+	"['gracious', 'kind', 'kind-hearted', 'sympathetic']" -> "['gentle']";
+	"['gentle']" -> "['rough', 'unkind', 'unsympathetic']";
+	"['rough', 'unkind', 'unsympathetic']" -> "['cutting', 'hurtful']";
+}

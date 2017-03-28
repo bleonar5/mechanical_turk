@@ -1,0 +1,14 @@
+strict digraph  {
+	"['unneighborly']" -> "['chilly']";
+	"['chilly']" -> "['unfriendly']";
+	"['chilly']" -> "['scowling']";
+	"['companionate']" -> "['social']";
+	"['social']" -> "['cordial']";
+	"['cordial']" -> "['uncordial']";
+	"['uncordial']" -> "['unneighborly']";
+	"['chummy', 'comradely']" -> "['companionate']";
+	"['chummy', 'comradely']" -> "['neighborly']";
+	"['neighborly']" -> "['social']";
+	"['friendly']" -> "['chummy', 'comradely']";
+	"['intimate']" -> "['chummy', 'comradely']";
+}

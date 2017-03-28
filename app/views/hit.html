@@ -1,0 +1,20 @@
+<html>
+    <head>
+        {% include "_js_scripts.html" %}
+    </head>
+    <body>
+    <h3>Using your own words, describe this man however you want.</h3>
+        <form action="{{ amazon_host }}" method="POST">
+            <textarea rows="4" cols="50" name="user-input">
+            </textarea>
+            <input type="hidden" id="assignmentId" value="{{ assignment_id }}" name="assignmentId"/>
+            <br/>
+            <input type="hidden" id="workerId" value="{{ worker_id }}" name="workerId"/>
+            <input type="hidden" id="hitId" value="{{ hit_id }}" name="hitId"/>
+            <input type="submit">
+        </form>
+        <div>
+            <img src="https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fimages2.fanpop.com%2Fimage%2Fphotos%2F14200000%2FPlanting-spongebob-squarepants-14243598-1024-768.jpg" style="width: 30%;">
+        </div>
+    </body>
+</html>

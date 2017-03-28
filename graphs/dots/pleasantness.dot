@@ -1,0 +1,18 @@
+strict digraph  {
+	"['unhappy']" -> "['bitter']";
+	"['unhappy']" -> "['dreadful', 'grim', 'harsh', 'repellent']";
+	"['grateful', 'pleasant']" -> "['idyllic']";
+	"['grateful', 'pleasant']" -> "['beautiful']";
+	"['idyllic']" -> "['sharp']";
+	"['idyllic']" -> "['ungrateful']";
+	"['beautiful']" -> "['sharp']";
+	"['beautiful']" -> "['ungrateful']";
+	"['sharp']" -> "['embarrassing', 'rough', 'unpleasant']";
+	"['embarrassing', 'rough', 'unpleasant']" -> "['unhappy']";
+	"['embarrassing', 'rough', 'unpleasant']" -> "['painful']";
+	"['embarrassing', 'rough', 'unpleasant']" -> "['beastly']";
+	"['ungrateful']" -> "['embarrassing', 'rough', 'unpleasant']";
+	"['painful']" -> "['dreadful', 'grim', 'harsh', 'repellent']";
+	"['beastly']" -> "['bitter']";
+	"['beastly']" -> "['dreadful', 'grim', 'harsh', 'repellent']";
+}

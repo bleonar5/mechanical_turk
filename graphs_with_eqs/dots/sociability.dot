@@ -1,0 +1,4 @@
+strict digraph  {
+	"['ungregarious']" -> "['antisocial', 'unsociable']";
+	"['convivial', 'sociable', 'social']" -> "['companionable']";
+}

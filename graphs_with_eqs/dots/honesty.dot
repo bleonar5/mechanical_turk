@@ -1,0 +1,5 @@
+strict digraph  {
+	"['straightarrow']" -> "['corrupt', 'sneaky']";
+	"['transparent']" -> "['corrupt', 'sneaky']";
+	"['straightforward']" -> "['corrupt', 'sneaky']";
+}

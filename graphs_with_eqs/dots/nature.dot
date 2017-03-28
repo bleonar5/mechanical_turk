@@ -1,0 +1,14 @@
+strict digraph  {
+	"['ugly']" -> "['irritable']";
+	"['ugly']" -> "['churlish']";
+	"['irritable']" -> "['choleric']";
+	"['churlish']" -> "['currish', 'gruff', 'ornery']";
+	"['disagreeable']" -> "['irritable']";
+	"['disagreeable']" -> "['currish', 'gruff', 'ornery']";
+	"['currish', 'gruff', 'ornery']" -> "['choleric']";
+	"['ill-natured', 'nagging', 'snappy', 'waspish']" -> "['irritable']";
+	"['ill-natured', 'nagging', 'snappy', 'waspish']" -> "['churlish']";
+	"['placid']" -> "['ill-natured', 'nagging', 'snappy', 'waspish']";
+	"['sulky']" -> "['irritable']";
+	"['sulky']" -> "['churlish']";
+}

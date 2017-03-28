@@ -1,0 +1,12 @@
+strict digraph  {
+	"['multifactorial']" -> "['interlocking']";
+	"['interlocking']" -> "['thickening']";
+	"['complex', 'complicated', 'intricate']" -> "['multiplex']";
+	"['multiplex']" -> "['multifactorial']";
+	"['multiplex']" -> "['involved']";
+	"['thickening']" -> "['analyzable']";
+	"['labyrinthian']" -> "['complex', 'complicated', 'intricate']";
+	"['analyzable']" -> "['simplex', 'unsophisticated']";
+	"['involved']" -> "['interlocking']";
+	"['unanalyzable']" -> "['complex', 'complicated', 'intricate']";
+}

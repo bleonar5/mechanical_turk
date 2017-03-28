@@ -1,0 +1,6 @@
+strict digraph  {
+	"['bright', 'brilliant', 'dazzling', 'gleaming', 'glimmery', 'luminous', 'radiant', 'shining', 'twinkling']" -> "['lurid']";
+	"['bright', 'brilliant', 'dazzling', 'gleaming', 'glimmery', 'luminous', 'radiant', 'shining', 'twinkling']" -> "['glittering']";
+	"['lurid']" -> "['soft']";
+	"['soft']" -> "['dull']";
+}

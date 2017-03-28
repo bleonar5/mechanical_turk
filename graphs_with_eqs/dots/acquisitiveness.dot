@@ -1,0 +1,6 @@
+strict digraph  {
+	"['acquisitive']" -> "['unacquisitive']";
+	"['plundering', 'rapacious']" -> "['acquisitive']";
+	"['plundering', 'rapacious']" -> "['possessive']";
+	"['possessive']" -> "['unacquisitive']";
+}

@@ -1,0 +1,5 @@
+strict digraph  {
+	"['structural', 'useful']" -> "['functional']";
+	"['functional']" -> "['nonfunctional']";
+	"['decorative']" -> "['nonfunctional']";
+}

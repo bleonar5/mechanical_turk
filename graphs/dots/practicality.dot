@@ -1,0 +1,9 @@
+strict digraph  {
+	"['working']" -> "['serviceable']";
+	"['serviceable']" -> "['unimaginative']";
+	"['unimaginative']" -> "['unwieldy']";
+	"['unimaginative']" -> "['unfunctional']";
+	"['applicative', 'practical']" -> "['working']";
+	"['functional']" -> "['working']";
+	"['unwieldy']" -> "['impractical']";
+}

@@ -1,0 +1,6 @@
+strict digraph  {
+	"['antitrust']" -> "['unfair']";
+	"['below_the_belt']" -> "['unfair']";
+	"['fair-and-square', 'fair-minded']" -> "['antitrust']";
+	"['fair-and-square', 'fair-minded']" -> "['below_the_belt']";
+}

@@ -1,0 +1,7 @@
+strict digraph  {
+	"['evil', 'evil-minded']" -> "['corruptive']";
+	"['evil', 'evil-minded']" -> "['bad']";
+	"['corruptive']" -> "['ugly']";
+	"['bad']" -> "['ugly']";
+	"['devilish', 'diabolical', 'monstrous']" -> "['evil', 'evil-minded']";
+}

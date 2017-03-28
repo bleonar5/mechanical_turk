@@ -1,0 +1,12 @@
+strict digraph  {
+	"['live', 'viable', 'vital']" -> "['liveborn']";
+	"['liveborn']" -> "['deathly']";
+	"['deathly']" -> "['fallen']";
+	"['deathly']" -> "['breathless']";
+	"['fallen']" -> "['murdered']";
+	"['breathless']" -> "['defunct']";
+	"['breathless']" -> "['late']";
+	"['murdered']" -> "['assassinated', 'brain_dead', 'd.o.a.', 'dead', 'executed', 'gone', 'lifeless']";
+	"['defunct']" -> "['murdered']";
+	"['late']" -> "['assassinated', 'brain_dead', 'd.o.a.', 'dead', 'executed', 'gone', 'lifeless']";
+}

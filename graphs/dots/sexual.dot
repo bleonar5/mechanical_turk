@@ -1,0 +1,5 @@
+strict digraph  {
+	"['gay', 'homosexual', 'lesbian']" -> "['transgender', 'transsexual']";
+	"['transgender', 'transsexual']" -> "['heterosexual', 'straight']";
+	"['homoerotic']" -> "['gay', 'homosexual', 'lesbian']";
+}

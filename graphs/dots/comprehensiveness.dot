@@ -1,0 +1,7 @@
+strict digraph  {
+	"['all-round']" -> "['wide']";
+	"['wide']" -> "['large']";
+	"['comprehensive', 'encyclopedic']" -> "['omnibus']";
+	"['omnibus']" -> "['all-round']";
+	"['large']" -> "['general']";
+}

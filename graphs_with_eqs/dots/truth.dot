@@ -1,0 +1,8 @@
+strict digraph  {
+	"['truthful']" -> "['true']";
+	"['real']" -> "['mendacious']";
+	"['real']" -> "['trumped-up']";
+	"['real']" -> "['specious']";
+	"['real']" -> "['sure']";
+	"['real']" -> "['false', 'untrue']";
+}

@@ -1,0 +1,3 @@
+strict digraph  {
+	"['assuring', 'comforting', 'reassuring', 'soothing']" -> "['worrisome']";
+}

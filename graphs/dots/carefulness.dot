@@ -1,0 +1,15 @@
+strict digraph  {
+	"['passing']" -> "['careless']";
+	"['passing']" -> "['offhand']";
+	"['careless']" -> "['sloppy']";
+	"['offhand']" -> "['sloppy']";
+	"['offhand']" -> "['incautious', 'reckless']";
+	"['careful', 'thorough']" -> "['studious']";
+	"['careful', 'thorough']" -> "['particular']";
+	"['studious']" -> "['detailed']";
+	"['particular']" -> "['detailed']";
+	"['detailed']" -> "['conscientious']";
+	"['conscientious']" -> "['passing']";
+	"['overcareful']" -> "['studious']";
+	"['overcareful']" -> "['particular']";
+}

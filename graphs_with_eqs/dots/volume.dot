@@ -1,0 +1,9 @@
+strict digraph  {
+	"['loud', 'loud-voiced']" -> "['low']";
+	"['low']" -> "['soft', 'soft-spoken', 'whispering']";
+	"['rustling']" -> "['low']";
+	"['blasting', 'earsplitting', 'earthshaking']" -> "['loud', 'loud-voiced']";
+	"['blasting', 'earsplitting', 'earthshaking']" -> "['shouted']";
+	"['shouted']" -> "['rustling']";
+	"['soft', 'soft-spoken', 'whispering']" -> "['quiet']";
+}

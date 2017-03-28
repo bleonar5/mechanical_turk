@@ -1,0 +1,12 @@
+strict digraph  {
+	"['big']" -> "['deep']";
+	"['deep']" -> "['reduced']";
+	"['deep']" -> "['low']";
+	"['advanced', 'full', 'strong']" -> "['deep']";
+	"['advanced', 'full', 'strong']" -> "['high']";
+	"['high']" -> "['reduced']";
+	"['high']" -> "['low']";
+	"['concentrated']" -> "['big']";
+	"['concentrated']" -> "['advanced', 'full', 'strong']";
+	"['extreme', 'intense']" -> "['advanced', 'full', 'strong']";
+}

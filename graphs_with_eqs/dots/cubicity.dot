@@ -1,0 +1,5 @@
+strict digraph  {
+	"['cube-shaped', 'cubic']" -> "['solid']";
+	"['cube-shaped', 'cubic']" -> "['blocky', 'boxy']";
+	"['blocky', 'boxy']" -> "['brick-shaped']";
+}

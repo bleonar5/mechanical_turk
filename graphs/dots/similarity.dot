@@ -1,0 +1,6 @@
+strict digraph  {
+	"['confusable', 'corresponding']" -> "['akin', 'similar']";
+	"['akin', 'similar']" -> "['sympathetic']";
+	"['sympathetic']" -> "['quasi']";
+	"['quasi']" -> "['dissimilar']";
+}

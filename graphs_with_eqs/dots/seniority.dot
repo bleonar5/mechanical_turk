@@ -1,0 +1,11 @@
+strict digraph  {
+	"['major']" -> "['older']";
+	"['older']" -> "['precedential']";
+	"['superior']" -> "['major']";
+	"['superior']" -> "['senior']";
+	"['senior']" -> "['jr.', 'junior']";
+	"['senior']" -> "['secondary']";
+	"['jr.', 'junior']" -> "['minor']";
+	"['precedential']" -> "['jr.', 'junior']";
+	"['precedential']" -> "['secondary']";
+}

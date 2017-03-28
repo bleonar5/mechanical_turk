@@ -1,0 +1,10 @@
+strict digraph  {
+	"['bright']" -> "['dulled', 'faded', 'pasty', 'prefaded']";
+	"['dulled', 'faded', 'pasty', 'prefaded']" -> "['blanched']";
+	"['lurid']" -> "['dulled', 'faded', 'pasty', 'prefaded']";
+	"['blanched']" -> "['colorless', 'pale']";
+	"['colorful', 'prismatic', 'vibrant']" -> "['bright']";
+	"['colorful', 'prismatic', 'vibrant']" -> "['lurid']";
+	"['colorful', 'prismatic', 'vibrant']" -> "['fluorescent']";
+	"['fluorescent']" -> "['dulled', 'faded', 'pasty', 'prefaded']";
+}

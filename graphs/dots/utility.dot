@@ -1,0 +1,7 @@
+strict digraph  {
+	"['serviceable']" -> "['futile']";
+	"['futile']" -> "['unserviceable', 'useless']";
+	"['useful']" -> "['serviceable']";
+	"['multipurpose']" -> "['serviceable']";
+	"['utilitarian', 'utilizable']" -> "['multipurpose']";
+}

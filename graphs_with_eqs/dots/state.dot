@@ -1,0 +1,16 @@
+strict digraph  {
+	"['liquid']" -> "['fluid']";
+	"['liquid']" -> "['gaseous', 'gassy']";
+	"['fluid']" -> "['vaporific']";
+	"['gaseous', 'gassy']" -> "['vaporific']";
+	"['concrete', 'solid', 'solid-state']" -> "['fluid']";
+	"['concrete', 'solid', 'solid-state']" -> "['coagulated']";
+	"['concrete', 'solid', 'solid-state']" -> "['congealed']";
+	"['coagulated']" -> "['semiliquid']";
+	"['coagulated']" -> "['semisolid']";
+	"['congealed']" -> "['evaporated']";
+	"['semiliquid']" -> "['evaporated']";
+	"['vaporific']" -> "['evaporated']";
+	"['semisolid']" -> "['evaporated']";
+	"['watery']" -> "['liquid']";
+}

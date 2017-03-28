@@ -1,0 +1,8 @@
+strict digraph  {
+	"['natural']" -> "['headless', 'stupid']";
+	"['bright']" -> "['natural']";
+	"['intelligent']" -> "['bright']";
+	"['intelligent']" -> "['clever']";
+	"['clever']" -> "['natural']";
+	"['brilliant']" -> "['intelligent']";
+}

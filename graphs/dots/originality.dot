@@ -1,0 +1,4 @@
+strict digraph  {
+	"['ready-made']" -> "['unoriginal']";
+	"['daring', 'groundbreaking', 'new', 'original', 'underivative']" -> "['ready-made']";
+}

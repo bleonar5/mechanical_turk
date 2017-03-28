@@ -1,0 +1,11 @@
+strict digraph  {
+	"['sufficient']" -> "['enough']";
+	"['enough']" -> "['light']";
+	"['light']" -> "['low', 'scarce']";
+	"['low', 'scarce']" -> "['rare']";
+	"['low', 'scarce']" -> "['lean']";
+	"['comfortable']" -> "['sufficient']";
+	"['abundant']" -> "['plentiful']";
+	"['plentiful']" -> "['comfortable']";
+	"['lean']" -> "['insufficient']";
+}

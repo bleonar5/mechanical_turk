@@ -1,0 +1,10 @@
+strict digraph  {
+	"['poor-spirited']" -> "['funky']";
+	"['caitiff']" -> "['faint']";
+	"['faint']" -> "['funky']";
+	"['fearful']" -> "['craven']";
+	"['craven']" -> "['poor-spirited']";
+	"['craven']" -> "['caitiff']";
+	"['poltroon']" -> "['poor-spirited']";
+	"['poltroon']" -> "['caitiff']";
+}

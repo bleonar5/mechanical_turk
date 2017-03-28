@@ -1,0 +1,4 @@
+strict digraph  {
+	"['brooding']" -> "['inconsiderate', 'thoughtless', 'unreflective']";
+	"['cogitative', 'deliberative', 'excogitative', 'thoughtful', 'well_thought_out']" -> "['brooding']";
+}

@@ -1,0 +1,8 @@
+strict digraph  {
+	"['licensed']" -> "['unlicensed']";
+	"['licensed']" -> "['approved']";
+	"['self-appointed']" -> "['unlicensed']";
+	"['authorized']" -> "['unlicensed']";
+	"['empowered']" -> "['licensed']";
+	"['empowered']" -> "['authorized']";
+}

@@ -1,0 +1,9 @@
+strict digraph  {
+	"['soupy']" -> "['syrupy']";
+	"['soupy']" -> "['stringy']";
+	"['syrupy']" -> "['thin']";
+	"['stringy']" -> "['thin']";
+	"['thick']" -> "['coagulable']";
+	"['coagulable']" -> "['soupy']";
+	"['clogged']" -> "['coagulable']";
+}

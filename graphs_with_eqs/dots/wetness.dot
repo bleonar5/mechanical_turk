@@ -1,0 +1,30 @@
+strict digraph  {
+	"['rainy']" -> "['damp']";
+	"['rainy']" -> "['steaming']";
+	"['damp']" -> "['arid']";
+	"['damp']" -> "['clammy']";
+	"['steaming']" -> "['arid']";
+	"['steaming']" -> "['muddy']";
+	"['steaming']" -> "['clammy']";
+	"['wet']" -> "['washed']";
+	"['washed']" -> "['arid']";
+	"['washed']" -> "['muddy']";
+	"['washed']" -> "['clammy']";
+	"['arid']" -> "['baked']";
+	"['arid']" -> "['dried-out', 'shriveled']";
+	"['baked']" -> "['dried', 'dried-up']";
+	"['dried-out', 'shriveled']" -> "['dried', 'dried-up']";
+	"['sticky']" -> "['baked']";
+	"['muddy']" -> "['dried', 'dried-up']";
+	"['clammy']" -> "['sticky']";
+	"['thirsty']" -> "['arid']";
+	"['thirsty']" -> "['muddy']";
+	"['watery']" -> "['muddy']";
+	"['watery']" -> "['clammy']";
+	"['misty']" -> "['damp']";
+	"['misty']" -> "['steaming']";
+	"['misty']" -> "['thirsty']";
+	"['sodden']" -> "['dried-out', 'shriveled']";
+	"['sodden']" -> "['muddy']";
+	"['sodden']" -> "['clammy']";
+}

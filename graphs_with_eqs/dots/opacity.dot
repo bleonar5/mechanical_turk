@@ -1,0 +1,9 @@
+strict digraph  {
+	"['solid']" -> "['muddy']";
+	"['muddy']" -> "['semiopaque']";
+	"['muddy']" -> "['milky']";
+	"['muddy']" -> "['frosted']";
+	"['milky']" -> "['foggy']";
+	"['frosted']" -> "['foggy']";
+	"['opaque']" -> "['solid']";
+}

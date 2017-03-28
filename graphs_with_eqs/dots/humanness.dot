@@ -1,0 +1,11 @@
+strict digraph  {
+	"['anthropomorphic']" -> "['inhuman', 'nonhuman']";
+	"['anthropomorphic']" -> "['earthborn']";
+	"['earthborn']" -> "['dehumanised']";
+	"['dehumanised']" -> "['bloodless']";
+	"['human']" -> "['dehumanised']";
+	"['human']" -> "['anthropoid']";
+	"['hominal', 'hominine']" -> "['inhuman', 'nonhuman']";
+	"['hominal', 'hominine']" -> "['earthborn']";
+	"['hominal', 'hominine']" -> "['anthropoid']";
+}

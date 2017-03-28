@@ -1,0 +1,12 @@
+strict digraph  {
+	"['intersexual']" -> "['bisexual']";
+	"['bisexual']" -> "['unisex']";
+	"['androgynous', 'hermaphrodite', 'neuter']" -> "['asexual']";
+	"['sexual']" -> "['egg-producing']";
+	"['egg-producing']" -> "['female', 'male', 'phallic']";
+	"['pistillate']" -> "['unisex']";
+	"['unisex']" -> "['androgynous', 'hermaphrodite', 'neuter']";
+	"['female', 'male', 'phallic']" -> "['pistillate']";
+	"['female', 'male', 'phallic']" -> "['staminate']";
+	"['staminate']" -> "['intersexual']";
+}

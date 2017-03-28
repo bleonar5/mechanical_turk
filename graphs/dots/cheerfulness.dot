@@ -1,0 +1,14 @@
+strict digraph  {
+	"['gay']" -> "['glad']";
+	"['gay']" -> "['jaunty']";
+	"['glad']" -> "['blithe']";
+	"['glad']" -> "['smiling']";
+	"['jaunty']" -> "['blithe']";
+	"['jaunty']" -> "['smiling']";
+	"['blithe']" -> "['melancholy']";
+	"['blithe']" -> "['dark']";
+	"['smiling']" -> "['melancholy']";
+	"['smiling']" -> "['dark']";
+	"['melancholy']" -> "['depressing']";
+	"['cheerful']" -> "['gay']";
+}

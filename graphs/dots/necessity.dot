@@ -1,0 +1,5 @@
+strict digraph  {
+	"['incumbent', 'obligatory']" -> "['essential', 'needed']";
+	"['essential', 'needed']" -> "['extra', 'spare']";
+	"['extra', 'spare']" -> "['inessential', 'needless', 'unnecessary']";
+}

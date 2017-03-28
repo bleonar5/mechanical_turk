@@ -1,0 +1,11 @@
+strict digraph  {
+	"['brown']" -> "['fair']";
+	"['brown']" -> "['nutbrown']";
+	"['brown']" -> "['tanned']";
+	"['brown']" -> "['nordic']";
+	"['adust']" -> "['nutbrown']";
+	"['adust']" -> "['nordic']";
+	"['dark', 'swarthy']" -> "['nutbrown']";
+	"['dark', 'swarthy']" -> "['tanned']";
+	"['dark', 'swarthy']" -> "['nordic']";
+}

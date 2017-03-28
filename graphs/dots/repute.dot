@@ -1,0 +1,11 @@
+strict digraph  {
+	"['damaged', 'shady']" -> "['disreputable']";
+	"['good']" -> "['notorious']";
+	"['good']" -> "['discreditable']";
+	"['notorious']" -> "['damaged', 'shady']";
+	"['notorious']" -> "['sordid']";
+	"['discreditable']" -> "['damaged', 'shady']";
+	"['respected']" -> "['good']";
+	"['sordid']" -> "['disreputable']";
+	"['honored', 'reputable', 'time-honored']" -> "['respected']";
+}

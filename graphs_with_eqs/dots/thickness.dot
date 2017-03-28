@@ -1,0 +1,7 @@
+strict digraph  {
+	"['fat', 'heavy']" -> "['four-ply', 'quilted']";
+	"['four-ply', 'quilted']" -> "['light', 'slender', 'thin']";
+	"['fine']" -> "['filamentlike', 'hyperfine', 'sheer']";
+	"['light', 'slender', 'thin']" -> "['fine']";
+	"['thick']" -> "['four-ply', 'quilted']";
+}

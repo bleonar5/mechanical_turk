@@ -1,0 +1,15 @@
+strict digraph  {
+	"['thoughtful']" -> "['light']";
+	"['light']" -> "['silly']";
+	"['light']" -> "['flippant']";
+	"['grave', 'overserious']" -> "['sobering']";
+	"['grave', 'overserious']" -> "['serious']";
+	"['sobering']" -> "['thoughtful']";
+	"['sobering']" -> "['earnest']";
+	"['serious']" -> "['thoughtful']";
+	"['serious']" -> "['earnest']";
+	"['silly']" -> "['trivial']";
+	"['trivial']" -> "['frivolous']";
+	"['earnest']" -> "['light']";
+	"['flippant']" -> "['frivolous']";
+}

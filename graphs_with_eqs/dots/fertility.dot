@@ -1,0 +1,4 @@
+strict digraph  {
+	"['fecund', 'fertile']" -> "['conceptive']";
+	"['conceptive']" -> "['barren', 'sterile', 'unfertilized']";
+}

@@ -1,0 +1,8 @@
+strict digraph  {
+	"['ambitious']" -> "['pushful']";
+	"['pushful']" -> "['would-be']";
+	"['pushful']" -> "['wishful']";
+	"['would-be']" -> "['ambitionless', 'shiftless']";
+	"['wishful']" -> "['ambitionless', 'shiftless']";
+	"['overambitious']" -> "['ambitious']";
+}

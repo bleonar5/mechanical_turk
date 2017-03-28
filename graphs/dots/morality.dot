@@ -1,0 +1,17 @@
+strict digraph  {
+	"['impure']" -> "['shocking']";
+	"['shocking']" -> "['immoral']";
+	"['shocking']" -> "['scrofulous']";
+	"['defiled']" -> "['shocking']";
+	"['pure']" -> "['chaste']";
+	"['chaste']" -> "['incorrupt']";
+	"['righteous']" -> "['pure']";
+	"['righteous']" -> "['clean']";
+	"['clean']" -> "['incorrupt']";
+	"['incorrupt']" -> "['white']";
+	"['immaculate']" -> "['clean']";
+	"['moral']" -> "['chaste']";
+	"['moral']" -> "['immaculate']";
+	"['white']" -> "['impure']";
+	"['white']" -> "['defiled']";
+}

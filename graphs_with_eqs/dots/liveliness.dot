@@ -1,0 +1,6 @@
+strict digraph  {
+	"['alive']" -> "['breezy']";
+	"['alive']" -> "['effusive']";
+	"['bubbling']" -> "['breezy']";
+	"['bouncing']" -> "['breezy']";
+}

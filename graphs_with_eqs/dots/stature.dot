@@ -1,0 +1,21 @@
+strict digraph  {
+	"['lanky']" -> "['leggy']";
+	"['lanky']" -> "['stately']";
+	"['lanky']" -> "['long']";
+	"['leggy']" -> "['thick']";
+	"['leggy']" -> "['squat']";
+	"['leggy']" -> "['half-length']";
+	"['stately']" -> "['squat']";
+	"['stately']" -> "['half-length']";
+	"['long']" -> "['thick']";
+	"['long']" -> "['squat']";
+	"['long']" -> "['half-length']";
+	"['thick']" -> "['short-stalked']";
+	"['half-length']" -> "['short-stalked']";
+	"['long-stalked', 'tall']" -> "['thick']";
+	"['long-stalked', 'tall']" -> "['squat']";
+	"['long-stalked', 'tall']" -> "['half-length']";
+	"['in_height']" -> "['stately']";
+	"['in_height']" -> "['thick']";
+	"['in_height']" -> "['little', 'pint-sized']";
+}

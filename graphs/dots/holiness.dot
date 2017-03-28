@@ -1,0 +1,5 @@
+strict digraph  {
+	"['holy', 'sacred']" -> "['blessed']";
+	"['blessed']" -> "['unhallowed']";
+	"['unhallowed']" -> "['profane']";
+}

@@ -1,0 +1,3 @@
+strict digraph  {
+	"['pinched']" -> "['broke', 'moneyless', 'needy', 'poor', 'unprovided_for']";
+}

@@ -1,0 +1,12 @@
+strict digraph  {
+	"['native']" -> "['adulterated']";
+	"['native']" -> "['bastardised']";
+	"['adulterated']" -> "['alloyed']";
+	"['bastardised']" -> "['dirty', 'unpurified']";
+	"['uncontaminated']" -> "['unadulterated', 'unalloyed']";
+	"['unadulterated', 'unalloyed']" -> "['native']";
+	"['alloyed']" -> "['contaminated', 'impure']";
+	"['pristine', 'pure']" -> "['uncontaminated']";
+	"['fresh']" -> "['unadulterated', 'unalloyed']";
+	"['dirty', 'unpurified']" -> "['contaminated', 'impure']";
+}

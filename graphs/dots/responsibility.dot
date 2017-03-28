@@ -1,0 +1,13 @@
+strict digraph  {
+	"['carefree']" -> "['feckless', 'loose']";
+	"['feckless', 'loose']" -> "['unreliable']";
+	"['amenable']" -> "['liable']";
+	"['amenable']" -> "['unaccountable']";
+	"['liable']" -> "['carefree']";
+	"['unaccountable']" -> "['feckless', 'loose']";
+	"['unreliable']" -> "['do-nothing', 'irresponsible', 'trigger-happy']";
+	"['accountable']" -> "['liable']";
+	"['answerable']" -> "['amenable']";
+	"['responsible', 'trustworthy']" -> "['accountable']";
+	"['responsible', 'trustworthy']" -> "['answerable']";
+}

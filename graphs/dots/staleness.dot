@@ -1,0 +1,5 @@
+strict digraph  {
+	"['moldy']" -> "['bad']";
+	"['bad']" -> "['cold', 'day-old', 'hard', 'stale']";
+	"['addled', 'maggoty', 'putrescent', 'putrid', 'rancid', 'rotten']" -> "['moldy']";
+}

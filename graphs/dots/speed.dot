@@ -1,0 +1,17 @@
+strict digraph  {
+	"['fast', 'quick']" -> "['express']";
+	"['express']" -> "['high-speed']";
+	"['hurrying']" -> "['lazy']";
+	"['lazy']" -> "['slow-moving']";
+	"['lazy']" -> "['drawn-out']";
+	"['high-speed']" -> "['rapid']";
+	"['rapid']" -> "['meteoric']";
+	"['slow-moving']" -> "['slow']";
+	"['drawn-out']" -> "['slow']";
+	"['swift']" -> "['hurrying']";
+	"['immediate']" -> "['express']";
+	"['meteoric']" -> "['swift']";
+	"['instant']" -> "['immediate']";
+	"['instant']" -> "['accelerated']";
+	"['accelerated']" -> "['fast', 'quick']";
+}

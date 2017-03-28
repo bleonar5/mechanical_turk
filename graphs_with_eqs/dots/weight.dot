@@ -1,0 +1,15 @@
+strict digraph  {
+	"['heavy', 'massive']" -> "['dense']";
+	"['dense']" -> "['low-density']";
+	"['dense']" -> "['lightweight']";
+	"['dense']" -> "['heavier-than-air']";
+	"['buoyant']" -> "['low-density']";
+	"['buoyant']" -> "['lightweight']";
+	"['buoyant']" -> "['light']";
+	"['lightweight']" -> "['airy', 'lighter-than-air']";
+	"['non-buoyant', 'soggy']" -> "['low-density']";
+	"['non-buoyant', 'soggy']" -> "['lightweight']";
+	"['non-buoyant', 'soggy']" -> "['light']";
+	"['non-buoyant', 'soggy']" -> "['heavier-than-air']";
+	"['hefty']" -> "['dense']";
+}

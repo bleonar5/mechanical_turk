@@ -1,0 +1,4 @@
+strict digraph  {
+	"['clear', 'distinct', 'lucid', 'unmistakable', 'vivid']" -> "['broad']";
+	"['broad']" -> "['blurred', 'puzzling', 'unclear', 'vague']";
+}

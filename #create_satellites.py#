@@ -1,0 +1,28 @@
+from nltk.corpus import wordnet as wn
+antonyms = {}
+attributes = {}
+checkded_adjs = {}
+for synset in list(wn.all_synsets()):
+    if synset.pos() == 'a' or synset.pos() == 's':
+        if len(synset.attributes()) > 0:
+            if synset.attributes()[0] not in attributes:
+                if len(synset.similar_tos()) > 0:
+                    ex0 = synset.similar_tos()
+                    ex0.append(synset)
+                else:
+                    ex0 = [synset]
+                attributes[synset.attributes()[0]] = ex0
+            else:
+                if len(synset.similar_tos()) > 0:
+                    ex = synset.similar_tos()
+                    ex.append(synset)
+                    attributes[synset.attributes()[0]].extend(ex) 
+                else:
+                    attributes[synset.attributes()[0]].append(synset) 
+        
+# .name is good key to lookup things, test it
+for atr in attributes:
+    print('Atr', atr.name())
+    print(attributes[atr])
+
+    

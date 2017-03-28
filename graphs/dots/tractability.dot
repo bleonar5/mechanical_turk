@@ -1,0 +1,7 @@
+strict digraph  {
+	"['intractable', 'unmalleable']" -> "['stubborn', 'uncontrollable']";
+	"['malleable', 'manipulable']" -> "['tamable']";
+	"['tamable']" -> "['docile']";
+	"['balking']" -> "['intractable', 'unmalleable']";
+	"['docile']" -> "['balking']";
+}

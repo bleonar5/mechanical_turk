@@ -1,0 +1,19 @@
+strict digraph  {
+	"['ugly']" -> "['disfigured', 'hideous', 'monstrous']";
+	"['pretty']" -> "['fair']";
+	"['fair']" -> "['unlovely']";
+	"['fair']" -> "['unsightly']";
+	"['gorgeous', 'stunning']" -> "['splendid']";
+	"['gorgeous', 'stunning']" -> "['beautiful']";
+	"['splendid']" -> "['lovely', 'scenic']";
+	"['beautiful']" -> "['picturesque']";
+	"['unlovely']" -> "['ugly']";
+	"['handsome']" -> "['fair']";
+	"['beauteous']" -> "['handsome']";
+	"['exquisite']" -> "['splendid']";
+	"['exquisite']" -> "['beautiful']";
+	"['lovely', 'scenic']" -> "['picturesque']";
+	"['unsightly']" -> "['ugly']";
+	"['picturesque']" -> "['pretty']";
+	"['picturesque']" -> "['beauteous']";
+}

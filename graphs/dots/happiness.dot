@@ -1,0 +1,5 @@
+strict digraph  {
+	"['bright']" -> "['lovesick']";
+	"['lovesick']" -> "['suffering', 'unhappy']";
+	"['blissful', 'happy']" -> "['bright']";
+}

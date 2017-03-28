@@ -1,0 +1,26 @@
+strict digraph  {
+	"['alto']" -> "['deep']";
+	"['alto']" -> "['tenor']";
+	"['alto']" -> "['baritone']";
+	"['deep']" -> "['contrabass']";
+	"['deep']" -> "['low']";
+	"['baritone']" -> "['contrabass']";
+	"['baritone']" -> "['low']";
+	"['soprano']" -> "['tenor']";
+	"['soprano']" -> "['falsetto']";
+	"['soprano']" -> "['altissimo']";
+	"['soprano']" -> "['contrabass']";
+	"['soprano']" -> "['low']";
+	"['high']" -> "['tenor']";
+	"['high']" -> "['altissimo']";
+	"['high']" -> "['contrabass']";
+	"['high']" -> "['low']";
+	"['sopranino']" -> "['deep']";
+	"['sopranino']" -> "['high']";
+	"['sopranino']" -> "['sharp']";
+	"['sharp']" -> "['tenor']";
+	"['sharp']" -> "['falsetto']";
+	"['sharp']" -> "['altissimo']";
+	"['sharp']" -> "['contrabass']";
+	"['sharp']" -> "['low']";
+}

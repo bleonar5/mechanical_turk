@@ -1,0 +1,5 @@
+strict digraph  {
+	"['humane']" -> "['unkind']";
+	"['unkind']" -> "['brutal']";
+	"['unkind']" -> "['cannibalic', 'inhumane']";
+}

@@ -1,0 +1,6 @@
+strict digraph  {
+	"['favorable']" -> "['awkward']";
+	"['convenient']" -> "['favorable']";
+	"['convenient']" -> "['inconvenient']";
+	"['convenient']" -> "['handy']";
+}

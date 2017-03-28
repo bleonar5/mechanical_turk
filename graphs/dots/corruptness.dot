@@ -1,0 +1,5 @@
+strict digraph  {
+	"['corrupt', 'perverse', 'putrid']" -> "['sold-out']";
+	"['sold-out']" -> "['uncorrupted']";
+	"['sold-out']" -> "['incorruptible']";
+}

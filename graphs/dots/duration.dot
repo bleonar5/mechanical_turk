@@ -1,0 +1,7 @@
+strict digraph  {
+	"['continuing', 'eternal', 'lifelong']" -> "['lasting', 'long', 'long-term', 'longitudinal', 'longstanding']";
+	"['lasting', 'long', 'long-term', 'longitudinal', 'longstanding']" -> "['extended', 'long-life', 'long-range']";
+	"['overnight']" -> "['brief', 'clipped', 'fleeting', 'short', 'short-range', 'short-term']";
+	"['long-acting']" -> "['overnight']";
+	"['extended', 'long-life', 'long-range']" -> "['long-acting']";
+}

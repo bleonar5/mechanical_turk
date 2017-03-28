@@ -1,0 +1,4 @@
+strict digraph  {
+	"['cookie-cutter']" -> "['like']";
+	"['duplicate', 'identical', 'same']" -> "['cookie-cutter']";
+}

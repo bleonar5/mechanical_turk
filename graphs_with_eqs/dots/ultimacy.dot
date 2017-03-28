@@ -1,0 +1,4 @@
+strict digraph  {
+	"['crowning', 'last', 'supreme', 'ultimate']" -> "['eventual']";
+	"['crowning', 'last', 'supreme', 'ultimate']" -> "['last-ditch']";
+}

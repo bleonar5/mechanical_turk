@@ -1,0 +1,7 @@
+strict digraph  {
+	"['ample', 'full', 'generous']" -> "['meager']";
+	"['meager']" -> "['hand-to-mouth']";
+	"['meager']" -> "['hardscrabble']";
+	"['hand-to-mouth']" -> "['bare', 'exiguous']";
+	"['hardscrabble']" -> "['bare', 'exiguous']";
+}

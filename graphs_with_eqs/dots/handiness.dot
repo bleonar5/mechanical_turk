@@ -1,0 +1,6 @@
+strict digraph  {
+	"['acquirable']" -> "['inaccessible', 'unavailable', 'unobtainable']";
+	"['acquirable']" -> "['ready']";
+	"['accessible', 'available', 'handy']" -> "['acquirable']";
+	"['accessible', 'available', 'handy']" -> "['obtainable']";
+}

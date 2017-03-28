@@ -1,0 +1,5 @@
+strict digraph  {
+	"['great']" -> "['exceptional', 'extraordinary', 'rare', 'remarkable', 'special', 'uncanny']";
+	"['nondescript']" -> "['exceptional', 'extraordinary', 'rare', 'remarkable', 'special', 'uncanny']";
+	"['average', 'common', 'commonplace', 'ordinary', 'routine']" -> "['nondescript']";
+}

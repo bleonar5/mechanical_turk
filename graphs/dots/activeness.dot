@@ -1,0 +1,14 @@
+strict digraph  {
+	"['inactive']" -> "['dormant']";
+	"['hypoactive']" -> "['inactive']";
+	"['hypoactive']" -> "['inert', 'sedentary']";
+	"['hypoactive']" -> "['desk-bound']";
+	"['inert', 'sedentary']" -> "['dormant']";
+	"['desk-bound']" -> "['dormant']";
+	"['on_the_go', 'proactive']" -> "['hands-on']";
+	"['hands-on']" -> "['hypoactive']";
+	"['overactive', 'quick', 'sporty']" -> "['active']";
+	"['active']" -> "['on_the_go', 'proactive']";
+	"['active']" -> "['athletic']";
+	"['athletic']" -> "['hands-on']";
+}

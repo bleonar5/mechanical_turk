@@ -1,0 +1,12 @@
+strict digraph  {
+	"['hard']" -> "['trying']";
+	"['hard']" -> "['troublesome']";
+	"['trying']" -> "['vexed']";
+	"['troublesome']" -> "['hard-fought']";
+	"['hard-fought']" -> "['vexed']";
+	"['vexed']" -> "['thorny']";
+	"['vexed']" -> "['delicate']";
+	"['arduous', 'herculean']" -> "['hard']";
+	"['arduous', 'herculean']" -> "['tough']";
+	"['tough']" -> "['vexed']";
+}

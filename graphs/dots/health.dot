@@ -1,0 +1,15 @@
+strict digraph  {
+	"['good']" -> "['whole']";
+	"['whole']" -> "['bouncing', 'hearty']";
+	"['yellow']" -> "['bad']";
+	"['bad']" -> "['pathological', 'sickly', 'unhealthy']";
+	"['bad']" -> "['foaming']";
+	"['bouncing', 'hearty']" -> "['firm']";
+	"['firm']" -> "['rosy']";
+	"['firm']" -> "['ruddy']";
+	"['foaming']" -> "['rheumatic']";
+	"['rosy']" -> "['puffy']";
+	"['ruddy']" -> "['puffy']";
+	"['puffy']" -> "['yellow']";
+	"['healthy']" -> "['good']";
+}

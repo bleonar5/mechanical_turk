@@ -1,0 +1,8 @@
+strict digraph  {
+	"['lonely']" -> "['alone', 'antisocial', 'asocial', 'unsocial', 'withdrawn']";
+	"['interpersonal']" -> "['lonely']";
+	"['gregarious']" -> "['interpersonal']";
+	"['gregarious']" -> "['cultural']";
+	"['cultural']" -> "['lonely']";
+	"['social']" -> "['gregarious']";
+}

@@ -1,0 +1,13 @@
+strict digraph  {
+	"['fiery']" -> "['heated', 'sensual']";
+	"['heated', 'sensual']" -> "['cool']";
+	"['heated', 'sensual']" -> "['moody']";
+	"['sentimental']" -> "['heated', 'sensual']";
+	"['sentimental']" -> "['chilly']";
+	"['sentimental']" -> "['warm']";
+	"['warm']" -> "['cool']";
+	"['warm']" -> "['moody']";
+	"['emotional']" -> "['heated', 'sensual']";
+	"['cordial']" -> "['cool']";
+	"['cordial']" -> "['chilly']";
+}

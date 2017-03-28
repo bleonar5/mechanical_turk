@@ -1,0 +1,5 @@
+strict digraph  {
+	"['upended']" -> "['inclined', 'leaning', 'skew', 'sloping']";
+	"['level']" -> "['inclined', 'leaning', 'skew', 'sloping']";
+	"['horizontal', 'upright', 'vertical']" -> "['upended']";
+}

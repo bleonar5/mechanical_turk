@@ -1,0 +1,5 @@
+strict digraph  {
+	"['domestic', 'tame']" -> "['gentle']";
+	"['gentle']" -> "['broken']";
+	"['cultivated']" -> "['gentle']";
+}

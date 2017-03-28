@@ -1,0 +1,4 @@
+strict digraph  {
+	"['abolishable']" -> "['indestructible', 'undestroyable']";
+	"['destroyable', 'destructible']" -> "['indestructible', 'undestroyable']";
+}

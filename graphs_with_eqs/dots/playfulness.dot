@@ -1,0 +1,7 @@
+strict digraph  {
+	"['kittenish']" -> "['devilish']";
+	"['kittenish']" -> "['elfin']";
+	"['playful']" -> "['devilish']";
+	"['playful']" -> "['elfin']";
+	"['playful']" -> "['mocking']";
+}

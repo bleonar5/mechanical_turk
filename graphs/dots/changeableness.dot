@@ -1,0 +1,16 @@
+strict digraph  {
+	"['adjustable']" -> "['stable']";
+	"['adjustable']" -> "['confirmed']";
+	"['confirmed']" -> "['unalterable', 'unchangeable']";
+	"['changeable']" -> "['adjustable']";
+	"['changeable']" -> "['reversible']";
+	"['reversible']" -> "['stable']";
+	"['reversible']" -> "['confirmed']";
+	"['fluid']" -> "['changeable']";
+	"['fluid']" -> "['erratic']";
+	"['erratic']" -> "['distortable']";
+	"['distortable']" -> "['adjustable']";
+	"['distortable']" -> "['reversible']";
+	"['unalterable', 'unchangeable']" -> "['carved_in_stone']";
+	"['volatile']" -> "['fluid']";
+}

@@ -1,0 +1,11 @@
+strict digraph  {
+	"['enormous', 'giant', 'grand']" -> "['great', 'massive']";
+	"['great', 'massive']" -> "['wide']";
+	"['lesser', 'smaller']" -> "['little', 'minute']";
+	"['little', 'minute']" -> "['atomic', 'tiny']";
+	"['wide']" -> "['large']";
+	"['double']" -> "['lesser', 'smaller']";
+	"['cosmic']" -> "['vast']";
+	"['vast']" -> "['enormous', 'giant', 'grand']";
+	"['large']" -> "['double']";
+}

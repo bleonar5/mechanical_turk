@@ -1,0 +1,5 @@
+strict digraph  {
+	"['unsalted']" -> "['flat', 'tasteless']";
+	"['acid-tasting', 'bitter', 'bittersweet', 'peppery', 'salty', 'sour']" -> "['unsalted']";
+	"['ambrosial', 'delicious', 'flavorful', 'pungent', 'rich', 'savory', 'tasty']" -> "['acid-tasting', 'bitter', 'bittersweet', 'peppery', 'salty', 'sour']";
+}

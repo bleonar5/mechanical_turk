@@ -1,0 +1,16 @@
+strict digraph  {
+	"['lanky']" -> "['wiry', 'wispy']";
+	"['lanky']" -> "['thin']";
+	"['lanky']" -> "['skinny']";
+	"['wiry', 'wispy']" -> "['shriveled']";
+	"['buxom', 'fat', 'heavy', 'plump', 'stout']" -> "['lanky']";
+	"['buxom', 'fat', 'heavy', 'plump', 'stout']" -> "['weighty']";
+	"['buxom', 'fat', 'heavy', 'plump', 'stout']" -> "['paunchy']";
+	"['buxom', 'fat', 'heavy', 'plump', 'stout']" -> "['slight']";
+	"['weighty']" -> "['wiry', 'wispy']";
+	"['paunchy']" -> "['wiry', 'wispy']";
+	"['paunchy']" -> "['skinny']";
+	"['slight']" -> "['thin']";
+	"['slight']" -> "['skinny']";
+	"['slight']" -> "['shriveled']";
+}

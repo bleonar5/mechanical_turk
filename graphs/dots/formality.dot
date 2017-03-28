@@ -1,0 +1,11 @@
+strict digraph  {
+	"['dress']" -> "['conventional']";
+	"['conventional']" -> "['stiff']";
+	"['conversational']" -> "['informal']";
+	"['casual']" -> "['conversational']";
+	"['nominal']" -> "['conventional']";
+	"['nominal']" -> "['casual']";
+	"['nominal']" -> "['folksy']";
+	"['folksy']" -> "['conversational']";
+	"['black-tie', 'ceremonial', 'formal']" -> "['dress']";
+}

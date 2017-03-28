@@ -1,0 +1,5 @@
+strict digraph  {
+	"['degrading']" -> "['dishonorable', 'unprincipled']";
+	"['time-honored']" -> "['degrading']";
+	"['honorable']" -> "['time-honored']";
+}

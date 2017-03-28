@@ -1,0 +1,3 @@
+strict digraph  {
+	"['odorous', 'pleasant-smelling', 'scented', 'smelling']" -> "['inodorous', 'non-aromatic']";
+}

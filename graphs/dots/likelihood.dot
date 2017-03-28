@@ -1,0 +1,8 @@
+strict digraph  {
+	"['farfetched']" -> "['last']";
+	"['probable', 'promising']" -> "['likely']";
+	"['likely']" -> "['outside']";
+	"['likely']" -> "['unlikely']";
+	"['outside']" -> "['last']";
+	"['unlikely']" -> "['farfetched']";
+}

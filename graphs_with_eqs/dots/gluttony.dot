@@ -1,0 +1,5 @@
+strict digraph  {
+	"['gluttonous']" -> "['overgreedy', 'ravenous']";
+	"['overgreedy', 'ravenous']" -> "['greedy']";
+	"['hoggish']" -> "['overgreedy', 'ravenous']";
+}

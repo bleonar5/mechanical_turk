@@ -1,0 +1,8 @@
+strict digraph  {
+	"['attendant']" -> "['truant']";
+	"['ever-present', 'present']" -> "['attendant']";
+	"['ubiquitous']" -> "['truant']";
+	"['ubiquitous']" -> "['away']";
+	"['existing']" -> "['attendant']";
+	"['here']" -> "['attendant']";
+}

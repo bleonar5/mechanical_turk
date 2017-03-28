@@ -1,0 +1,4 @@
+strict digraph  {
+	"['lionhearted']" -> "['brave', 'gallant', 'valiant']";
+	"['brave', 'gallant', 'valiant']" -> "['undaunted']";
+}

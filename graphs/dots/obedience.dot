@@ -1,0 +1,10 @@
+strict digraph  {
+	"['willful']" -> "['recusant']";
+	"['willful']" -> "['recalcitrant']";
+	"['recusant']" -> "['contrary', 'disobedient']";
+	"['recalcitrant']" -> "['contrary', 'disobedient']";
+	"['acquiescent']" -> "['conformable']";
+	"['conformable']" -> "['willful']";
+	"['obedient']" -> "['duteous']";
+	"['duteous']" -> "['acquiescent']";
+}

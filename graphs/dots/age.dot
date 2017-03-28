@@ -1,0 +1,16 @@
+strict digraph  {
+	"['old']" -> "['used']";
+	"['old']" -> "['gray']";
+	"['used']" -> "['prime']";
+	"['gray']" -> "['prime']";
+	"['mature']" -> "['used']";
+	"['mature']" -> "['gray']";
+	"['ancient']" -> "['used']";
+	"['ancient']" -> "['gray']";
+	"['prime']" -> "['junior']";
+	"['junior']" -> "['recent']";
+	"['recent']" -> "['early', 'rising']";
+	"['recent']" -> "['new', 'young']";
+	"['recent']" -> "['virgin']";
+	"['virgin']" -> "['fresh']";
+}

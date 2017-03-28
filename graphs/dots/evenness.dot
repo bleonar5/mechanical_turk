@@ -1,0 +1,12 @@
+strict digraph  {
+	"['pebble-grained']" -> "['untrue']";
+	"['untrue']" -> "['uneven', 'unparallel']";
+	"['lap-jointed', 'straight-grained']" -> "['wavy']";
+	"['wavy']" -> "['irregular']";
+	"['even', 'flush', 'justified', 'level', 'true']" -> "['lap-jointed', 'straight-grained']";
+	"['uneven', 'unparallel']" -> "['cross-grained']";
+	"['cross-grained']" -> "['wavy']";
+	"['cross-grained']" -> "['lumpy']";
+	"['lumpy']" -> "['jagged', 'ragged']";
+	"['irregular']" -> "['jagged', 'ragged']";
+}

@@ -1,0 +1,18 @@
+strict digraph  {
+	"['low-powered']" -> "['feeble']";
+	"['feeble']" -> "['helpless']";
+	"['strong']" -> "['powerless', 'weak']";
+	"['coercive']" -> "['helpless']";
+	"['helpless']" -> "['powerless', 'weak']";
+	"['mighty']" -> "['strong']";
+	"['mighty']" -> "['helpless']";
+	"['mighty']" -> "['ruling']";
+	"['regent']" -> "['strong']";
+	"['regent']" -> "['ruling']";
+	"['regent']" -> "['muscular', 'powerful']";
+	"['muscular', 'powerful']" -> "['low-powered']";
+	"['muscular', 'powerful']" -> "['coercive']";
+	"['muscular', 'powerful']" -> "['compelling']";
+	"['almighty']" -> "['mighty']";
+	"['almighty']" -> "['muscular', 'powerful']";
+}

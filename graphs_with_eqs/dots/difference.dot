@@ -1,0 +1,3 @@
+strict digraph  {
+	"['contrary', 'contrasting', 'different', 'disparate', 'distinct', 'divergent', 'opposite']" -> "['antithetical', 'diverse', 'various']";
+}

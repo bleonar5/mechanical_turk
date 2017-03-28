@@ -1,0 +1,16 @@
+strict digraph  {
+	"['complete', 'ideal']" -> "['faulty']";
+	"['complete', 'ideal']" -> "['blemished']";
+	"['flawless', 'impeccable', 'mint', 'perfect', 'pluperfect']" -> "['clean']";
+	"['flawless', 'impeccable', 'mint', 'perfect', 'pluperfect']" -> "['errorless']";
+	"['flawless', 'impeccable', 'mint', 'perfect', 'pluperfect']" -> "['imperfect']";
+	"['clean']" -> "['irregular']";
+	"['errorless']" -> "['complete', 'ideal']";
+	"['errorless']" -> "['uncorrupted']";
+	"['uncorrupted']" -> "['faulty']";
+	"['uncorrupted']" -> "['blemished']";
+	"['uncorrupted']" -> "['broken']";
+	"['irregular']" -> "['faulty']";
+	"['irregular']" -> "['blemished']";
+	"['irregular']" -> "['broken']";
+}

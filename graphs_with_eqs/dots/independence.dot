@@ -1,0 +1,10 @@
+strict digraph  {
+	"['commutative']" -> "['dependent', 'helpless', 'interdependent', 'parasitic', 'reliant']";
+	"['breakaway', 'single-handed']" -> "['commutative']";
+	"['breakaway', 'single-handed']" -> "['unconditional']";
+	"['breakaway', 'single-handed']" -> "['myrmecophilous']";
+	"['breakaway', 'single-handed']" -> "['babelike']";
+	"['myrmecophilous']" -> "['dependent', 'helpless', 'interdependent', 'parasitic', 'reliant']";
+	"['babelike']" -> "['dependent', 'helpless', 'interdependent', 'parasitic', 'reliant']";
+	"['autarkic', 'autonomous', 'free-living', 'independent', 'individual', 'self-reliant', 'self-supporting', 'self-sustaining']" -> "['breakaway', 'single-handed']";
+}

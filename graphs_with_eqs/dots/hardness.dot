@@ -1,0 +1,21 @@
+strict digraph  {
+	"['compressible']" -> "['fluffy', 'padded', 'soft']";
+	"['hard', 'stony']" -> "['erect']";
+	"['hard', 'stony']" -> "['woolly']";
+	"['erect']" -> "['compressible']";
+	"['woolly']" -> "['compressible']";
+	"['adamantine']" -> "['fluffy', 'padded', 'soft']";
+	"['steely']" -> "['hard', 'stony']";
+	"['steely']" -> "['corneous']";
+	"['steely']" -> "['set']";
+	"['corneous']" -> "['woolly']";
+	"['corneous']" -> "['velvet']";
+	"['corneous']" -> "['cheeselike']";
+	"['set']" -> "['woolly']";
+	"['set']" -> "['velvet']";
+	"['set']" -> "['cheeselike']";
+	"['firm']" -> "['corneous']";
+	"['velvet']" -> "['fluffy', 'padded', 'soft']";
+	"['cheeselike']" -> "['fluffy', 'padded', 'soft']";
+	"['cheeselike']" -> "['spongy']";
+}

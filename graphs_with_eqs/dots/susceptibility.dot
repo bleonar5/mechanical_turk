@@ -1,0 +1,6 @@
+strict digraph  {
+	"['vulnerable']" -> "['insusceptible', 'resistant', 'unresponsive']";
+	"['liable', 'susceptible', 'unvaccinated']" -> "['predisposed']";
+	"['predisposed']" -> "['insusceptible', 'resistant', 'unresponsive']";
+	"['immunised', 'immunogenic']" -> "['insusceptible', 'resistant', 'unresponsive']";
+}

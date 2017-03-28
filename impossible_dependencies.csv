@@ -1,0 +1,220 @@
+attribute,kappa score,number of adjectives,number of impossible dependencies,problem_dependencies
+wariness_1:07:00::,0.5309951060358888,5,0
+fullness_1:26:00::,0.5813113522434753,15,0
+nature_1:07:01::,0.1982228499132024,16,1,ornery = gruff
+sincerity_1:07:00::,0.5710441498418877,12,2,honest = true,true = heart-whole
+admissibility_1:07:00::,0.7083813364055298,6,0
+attractiveness_1:07:00::,0.47099332220367285,13,0
+destructibility_1:07:00::,0.41709844559585496,5,0
+significance_1:07:00::,0.5231169626454377,8,0
+creativity_1:09:00::,0.3338388214904679,6,0
+activeness_1:07:00::,0.3907911592659475,14,1,proactive = active
+intelligence_1:09:00::,0.6828053559764862,7,0
+sensitivity_1:12:00::,0.5342926215392773,10,0
+breakableness_1:07:00::,0.3966090425531914,9,0
+practicality_1:07:00::,0.47508993786111386,9,0
+complexion_1:07:00::,0.1933497536945814,8,0
+correctness_1:07:01::,0.46180131803758795,8,0
+completeness_1:26:00::,0.6489510025229053,10,0
+age_1:07:00::,0.42671463386329406,14,0
+ambition_1:07:00::,0.6626432789162905,7,0
+certainty_1:07:00::,0.4275990099009901,5,3,sure_as_shooting = sure,sure_as_shooting = definite
+orientation_1:24:00::,0.2982542173401334,9,0
+conspicuousness_1:07:00::,0.3935396463205932,7,0
+presence_1:26:00::,0.49570815450643785,9,0
+numerousness_1:07:00::,0.6541896256887705,8,0
+consistency_1:07:00::,0.2713331048663469,7,0
+timidity_1:07:00::,0.04282473057288722,6,0
+solidity_1:26:00::,0.37818877551020424,5,3,cavernous = hollow,tubular = cavernous
+continuity_1:07:00::,0.08410138248847898,7,0
+humaneness_1:07:00::,0.3821292775665401,5,0
+materiality_1:07:00::,0.479744728079911,6,0
+evil_1:07:00::,0.3898389506890252,8,0
+difference_1:07:00::,0.10628310062590289,10,6,contrary = distinct,disparate = contrary,contrary = divergent,contrary = different,diverse = various
+modesty_1:07:00::,0.7452692867540028,5,0
+motion_1:26:00::,0.5529368053760663,10,0
+ordinariness_1:07:00::,0.2047208778371167,13,4,exceptional = special,remarkable = extraordinary,special = uncanny
+pride_1:07:00::,0.2776486217203592,9,0
+currentness_1:07:00::,0.5258314855875833,14,6,topical = on-line,up-to-date = on-going,on-going = live,on-going = current,on-going = latest,on-going = topical
+taste_1:09:01::,0.4414893617021278,10,1,cheap = indelicate
+absorbency_1:07:00::,0.37252311756935275,5,0
+cleanness_1:26:00::,0.38075283836538837,14,0
+reasonableness_1:07:00::,0.5981744220656809,9,3,reasonable = commonsense,tenable = reasonable,commonsense = tenable
+obviousness_1:07:00::,0.6771935283136283,10,0
+comprehensiveness_1:26:00::,0.5736285626723874,7,0
+commonness_1:07:00::,0.13202036608983583,10,0
+degree_1:07:00::,0.3713049211007614,11,0
+freshness_1:07:01::,0.32391826923076916,5,0
+seniority_1:26:00::,0.4592324589740277,9,0
+necessity_1:26:00::,0.5618915159944369,9,2,inessential = unnecessary
+disposition_1:07:00::,0.419614655716993,6,0
+temperature_1:07:00::,0.6482049431715677,13,0
+obedience_1:07:00::,0.6353082904391636,9,0
+happiness_1:26:00::,0.830009066183137,6,0
+rightness_1:07:00::,0.6987951807228915,5,0
+animation_1:07:01::,0.30635302118188906,17,0
+clearness_1:07:02::,0.02103808353808365,6,0
+piety_1:07:00::,0.630859375,7,0
+thoughtfulness_1:07:00::,0.5506419400855925,9,0
+success_1:26:00::,0.6359450747163772,15,0
+taste_property,0.5427200490651466,16,9,peppery = acid-tasting,acid-tasting = sour,acid-tasting = salty,savory = tasty,rich = delicious,delicious = pungent,acid-tasting = bitter,delicious = savory
+changeableness_1:07:00::,0.5905641649590168,12,0
+carefulness_1:07:00::,0.5134491015284091,13,1,studious = careful
+cheerfulness_1:07:00::,0.4972640218878252,9,0
+propriety_1:07:00::,0.5353088320184722,8,0
+separation_1:26:00::,0.3303195962994112,7,2,isolated = apart
+complexity_1:07:00::,0.41296976547047237,13,3,complicated = multiplex,multiplex = intricate
+originality_1:07:00::,0.5061728395061729,7,2,groundbreaking = original
+duration_1:07:00::,0.40106359187539337,19,4,clipped = brief,clipped = short-term,short-range = clipped
+speed_1:07:00::,0.4491326024470275,15,0
+gluttony_1:07:00::,0.034926470588235274,5,0
+conventionality_1:07:00::,0.45936457784799023,8,0
+tameness_1:07:01::,0.08838071693448699,5,0
+convenience_1:07:00::,0.8196248196248197,5,0
+direction_1:24:00::,0.13680781758957658,8,1,outward = out
+normality_1:26:00::,0.4571323463614943,16,0
+reality_1:26:01::,0.31511501539576164,11,0
+position_1:07:00::,0.16836801310432353,20,0
+moderation_1:07:00::,0.05356695085255791,12,0
+interest_1:07:02::,0.3643762928320894,12,0
+curliness_1:07:00::,0.6655132641291812,8,0
+lawfulness_1:07:00::,0.7439180537772089,5,0
+body_weight,0.504330008809464,14,2,fat = stout,stout = plump
+likelihood_1:07:00::,0.5511497641509436,7,0
+explicitness_1:07:00::,0.13784775888717157,7,0
+excitement_1:26:01::,0.47931098180474757,12,0
+position_1:07:01::,0.27494199535962877,10,0
+intentionality_1:07:00::,0.6312206192251577,8,0
+appropriateness_1:07:00::,0.538995868869936,10,0
+morality_1:07:00::,0.35901635640701257,13,0
+audibility_1:07:00::,0.589073262366938,7,0
+fear_1:12:00::,0.2885412157566014,13,0
+sufficiency_1:07:00::,0.5332418121200238,8,0
+diverseness_1:07:00::,0.34711643090315575,6,0
+political_orientation,0.09200453643322924,7,0
+purity_1:26:00::,0.578788411916491,14,0
+temporal_relation,0.3420101229211856,8,0
+accuracy_1:07:02::,0.5171582873195782,11,1,true = accurate
+seriousness_1:07:00::,0.5494158434650459,11,0
+hardness_1:07:01::,0.43589743589743596,16,0
+directness_1:07:00::,0.4813879829402908,10,2,undeviating = direct,nonstop = undeviating
+possibility_1:26:00::,0.5650306089571473,9,1,impossible = unachievable
+connection_1:24:00::,0.547514746703678,13,7,separate = apart,well-connected = connected,unattached = unconnected,separate = unattached,connected = joined
+shape_1:07:00::,0.12673261702265787,14,0
+otherness_1:07:00::,0.14981617647058829,6,0
+truth_1:26:00::,0.44567750527133504,9,0
+capability_1:07:00::,0.5686738836265226,6,0
+worthiness_1:07:00::,0.42924513322112445,14,0
+repute_1:26:00::,0.46001740680988334,11,0
+evenness_1:07:00::,0.5045789519908656,17,3,justified = level,justified = true
+boldness_1:07:00::,0.01682624612785153,7,0
+clarity_1:07:01::,0.5820585664335666,10,3,clear = lucid,lucid = unmistakable,distinct = clear
+affectedness_1:07:00::,0.49324324324324326,6,0
+sameness_1:07:00::,0.30823680823680816,5,0
+depth_1:07:00::,0.42680027173913027,6,0
+holiness_1:07:00::,0.49448529411764713,5,0
+olfactory_property,0.485759493670886,6,3,smelling = odorous,pleasant-smelling = smelling
+attention_1:07:00::,0.5106263982102912,8,0
+animation_1:26:00::,0.4173359292609716,17,6,lifeless = breathless,brain_dead = assassinated,brain_dead = d.o.a.,d.o.a. = lifeless,brain_dead = dead
+length_1:07:00::,0.47907089701111927,14,0
+importance_1:07:00::,0.35277585740479117,12,0
+power_1:07:00::,0.5652641727064575,14,0
+integrity_1:26:00::,0.6793893129770993,7,0
+quantity_1:07:00::,0.6267574590506243,11,0
+offensiveness_1:07:00::,0.17168150301268667,14,1,creepy = obnoxious
+politeness_1:07:00::,0.5243163582773865,8,0
+height_1:07:00::,0.49773388351484793,10,0
+adequacy_1:07:00::,0.702617881200245,7,0
+usualness_1:07:00::,0.43393398394564214,12,0
+permanence_1:07:00::,0.46925049487133363,13,0
+generality_1:07:00::,0.6084509205819744,13,2,widespread = all-purpose,general = widespread
+commerce_1:04:00::,0.493243243243243,6,0
+generosity_1:07:00::,0.48367427222659315,8,0
+sociality_1:07:00::,0.5422896268854194,10,0
+health_1:26:00::,0.4055482166446497,16,0
+responsibility_1:07:00::,0.4396817126888648,14,1,feckless = unreliable
+independence_1:26:00::,0.4806773878073701,19,10,interdependent = helpless,autonomous = self-reliant,autonomous = self-supporting,dependent = interdependent,self-sustaining = autonomous,autonomous = individual,interdependent = parasitic,autarkic = free-living
+volume_1:07:02::,0.5620346566057891,12,3,whispering = soft,blasting = earthshaking
+prolixity_1:10:00::,0.34575229823994114,11,0
+sensationalism_1:10:01::,0.21497584541062825,5,0
+familiarity_1:07:01::,0.6986222732491388,6,0
+value_1:07:01::,0.38160676532769555,7,0
+beauty_1:07:00::,0.5935139840797522,18,0
+light_1:07:00::,0.4495230962398391,17,1,dark = black
+financial_condition,0.3978230337078652,8,0
+wildness_1:07:00::,0.1058655221745351,5,0
+felicity_1:07:00::,0.5657015590200446,7,0
+alarm_1:12:00::,0.36516509738165864,10,0
+fairness_1:07:00::,0.3893678160919539,5,0
+regularity_1:07:00::,0.588477366255144,8,0
+legality_1:07:00::,0.4179314082980189,15,0
+freedom_1:26:00::,0.5209006462035547,13,0
+emotionality_1:07:00::,0.41089263420724087,10,0
+wetness_1:26:00::,0.32967381366679427,19,0
+foreignness_1:07:00::,0.3977788205850148,8,3,nonnative = alien,foreign = nonnative
+mandate_1:10:00::,0.3893290627107215,7,0
+similarity_1:07:00::,0.4606164383561646,7,0
+function_1:07:00::,0.6036988110964333,5,0
+honesty_1:07:00::,0.5167525773195877,5,0
+timing_1:07:00::,0.5243304163351896,15,1,old = past
+staleness_1:07:01::,0.45538409456371515,12,7,maggoty = putrescent,stale = cold,moldy = rancid,rotten = moldy,day-old = stale,moldy = maggoty
+ultimacy_1:26:00::,0.20945945945945946,6,2,last = ultimate
+luminosity_1:07:00::,0.314421031538058,14,7,luminous = dazzling,luminous = shining,luminous = gleaming,radiant = luminous,luminous = twinkling,luminous = bright
+kindness_1:07:00::,0.5796275708727073,10,0
+cowardice_1:07:00::,0.09115720524017457,7,0
+liveliness_1:07:00::,0.22768878718535465,6,0
+mind_1:09:05::,0.534719198955159,9,0
+fertility_1:26:00::,0.568089430894309,6,0
+crisis_1:26:00::,0.434477379095164,5,0
+strength_1:07:00::,0.515260438717946,18,3,delicate = dainty,dainty = feeble,dainty = puny
+utility_1:07:00::,0.4705082440931496,8,0
+handiness_1:07:00::,0.5705338502833284,9,0
+assurance_1:09:00::,0.5104735883424407,6,0
+confidence_1:12:00::,0.43750000000000006,6,0
+weight_1:07:00::,0.6367526192196535,13,0
+size_1:07:00::,0.5879007286392912,16,4,atomic = minute,cosmic = enormous,wide = grand,enormous = massive
+playfulness_1:07:00::,0.2912371134020617,5,0
+opacity_1:07:00::,0.2397981570864413,7,0
+recognition_1:26:00::,0.5394363674358899,12,0
+sex_1:07:00::,0.47806479859895007,14,0
+logicality_1:07:00::,0.5898838004101163,6,0
+quality_1:07:00::,0.7040719696969695,6,0
+humanness_1:07:00::,0.6396196837513629,10,0
+friendliness_1:07:00::,0.5021669281924831,13,0
+comfort_1:26:00::,0.5156631598722525,11,3,homely = snug,soothing = homely,snug = soothing
+loyalty_1:07:00::,0.48250000000000015,7,2,rebellious = traitorous
+tractability_1:07:00::,0.49474660074165666,9,0
+pitch_1:07:00::,0.35591461606878183,12,0
+formality_1:07:00::,0.45968748555314154,11,0
+finality_1:07:00::,0.5814307458143073,5,0
+sharpness_1:07:01::,0.2238283354282637,14,0
+perfection_1:26:00::,0.6462798780948549,15,3,impeccable = flawless,flawless = mint,flawless = pluperfect
+courage_1:07:00::,0.1851168511685117,5,0
+pleasantness_1:07:00::,0.2870367772884114,17,2,bitter = unpleasant,rough = bitter
+reassurance_1:04:00::,0.436936936936937,5,3,reassuring = soothing,reassuring = comforting
+orthodoxy_1:07:00::,0.3921313411939712,13,0
+essentiality_1:07:00::,0.6020499488578248,10,0
+sociability_1:07:00::,0.4433982004603476,8,0
+cubicity_1:07:00::,0.5119305856832971,7,0
+sensitivity_1:07:00::,0.4611384146083126,11,0
+distance_1:07:00::,0.47337743317247705,15,0
+sexual_activity,0.05361806729144251,8,0
+being_1:26:00::,0.6831432192648923,5,0
+domesticity_1:07:00::,0.6358213096559379,6,0
+honorableness_1:07:00::,0.6514575411913816,5,0
+thickness_1:07:01::,0.6677606544901068,12,1,filamentlike = hyperfine
+susceptibility_1:26:00::,0.4945156601030792,10,1,susceptible = liable
+color_1:07:03::,0.5783216783216778,13,2,bright = vibrant,blanched = pale
+state_of,0.4953909860675373,14,0
+readiness_1:26:00::,0.48236632536973834,8,0
+ancestry_1:07:00::,0.5471014492753621,6,1,half-breed = crossbred
+texture_1:07:00::,0.26760976992871016,11,5,fine-grained = floury,powdered = fine-grained,fine-grained = dustlike,dustlike = powdered,floury = plush-like
+acquisitiveness_1:07:00::,0.4769874476987447,5,0
+quality_1:07:02::,0.5499326822387963,13,0
+difficulty_1:07:00::,0.3309906744154614,10,0
+equality_1:07:00::,0.5132020487460255,15,0
+corruptness_1:07:00::,0.10272277227722766,6,0
+popularity_1:07:00::,0.45688689809630456,8,0
+stature_1:07:02::,0.6078643004839921,13,0
+status_1:26:00::,0.4140654715115251,13,0
+awareness_1:09:00::,0.4788449660284126,6,0

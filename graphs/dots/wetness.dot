@@ -1,0 +1,18 @@
+strict digraph  {
+	"['wet']" -> "['washed']";
+	"['washed']" -> "['misty']";
+	"['sticky']" -> "['thirsty']";
+	"['thirsty']" -> "['muddy']";
+	"['thirsty']" -> "['rainy']";
+	"['arid']" -> "['baked']";
+	"['baked']" -> "['dried-out', 'shriveled']";
+	"['muddy']" -> "['arid']";
+	"['misty']" -> "['damp']";
+	"['dried-out', 'shriveled']" -> "['dried', 'dried-up']";
+	"['dried-out', 'shriveled']" -> "['dry']";
+	"['sodden']" -> "['misty']";
+	"['rainy']" -> "['steaming']";
+	"['steaming']" -> "['clammy']";
+	"['watery']" -> "['sodden']";
+	"['damp']" -> "['sticky']";
+}

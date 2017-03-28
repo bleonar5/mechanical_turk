@@ -1,0 +1,14 @@
+strict digraph  {
+	"['putative']" -> "['self-confessed']";
+	"['putative']" -> "['secret', 'unacknowledged', 'unconfessed', 'unsung']";
+	"['putative']" -> "['unrecognized']";
+	"['assumptive']" -> "['secret', 'unacknowledged', 'unconfessed', 'unsung']";
+	"['assumptive']" -> "['unrecognized']";
+	"['acknowledged']" -> "['self-confessed']";
+	"['acknowledged']" -> "['secret', 'unacknowledged', 'unconfessed', 'unsung']";
+	"['acknowledged']" -> "['declarable']";
+	"['acknowledged']" -> "['accepted']";
+	"['declarable']" -> "['unrecognized']";
+	"['given']" -> "['self-confessed']";
+	"['given']" -> "['assumptive']";
+}

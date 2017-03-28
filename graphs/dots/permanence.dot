@@ -1,0 +1,15 @@
+strict digraph  {
+	"['passing']" -> "['fly-by-night']";
+	"['fly-by-night']" -> "['makeshift', 'temporary']";
+	"['standing']" -> "['acting']";
+	"['acting']" -> "['terminable']";
+	"['interim']" -> "['passing']";
+	"['terminable']" -> "['interim']";
+	"['terminable']" -> "['evanescent']";
+	"['enduring']" -> "['standing']";
+	"['indissoluble']" -> "['standing']";
+	"['eternal']" -> "['enduring']";
+	"['eternal']" -> "['indissoluble']";
+	"['permanent']" -> "['enduring']";
+	"['permanent']" -> "['indissoluble']";
+}

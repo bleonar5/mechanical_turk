@@ -1,0 +1,6 @@
+strict digraph  {
+	"['at_the_ready', 'ready', 'ripe', 'set']" -> "['prompt']";
+	"['at_the_ready', 'ready', 'ripe', 'set']" -> "['in_order']";
+	"['prompt']" -> "['unready', 'unripe']";
+	"['in_order']" -> "['unready', 'unripe']";
+}

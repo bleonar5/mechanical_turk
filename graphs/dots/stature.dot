@@ -1,0 +1,13 @@
+strict digraph  {
+	"['lanky']" -> "['leggy']";
+	"['leggy']" -> "['long']";
+	"['leggy']" -> "['in_height']";
+	"['long']" -> "['stately']";
+	"['in_height']" -> "['stately']";
+	"['stately']" -> "['half-length']";
+	"['half-length']" -> "['thick']";
+	"['squat']" -> "['little', 'pint-sized']";
+	"['thick']" -> "['squat']";
+	"['thick']" -> "['short-stalked']";
+	"['long-stalked', 'tall']" -> "['lanky']";
+}

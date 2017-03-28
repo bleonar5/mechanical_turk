@@ -1,0 +1,4 @@
+strict digraph  {
+	"['granular', 'granulated']" -> "['dustlike', 'fine', 'fine-grained', 'floury', 'plush-like', 'powdered', 'superfine']";
+	"['harsh']" -> "['dustlike', 'fine', 'fine-grained', 'floury', 'plush-like', 'powdered', 'superfine']";
+}

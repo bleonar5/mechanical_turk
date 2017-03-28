@@ -1,0 +1,13 @@
+strict digraph  {
+	"['appalling', 'stupefying']" -> "['formidable']";
+	"['appalling', 'stupefying']" -> "['terrible']";
+	"['formidable']" -> "['unalarming']";
+	"['terrible']" -> "['unalarming']";
+	"['alarming']" -> "['nightmarish']";
+	"['alarming']" -> "['threatening']";
+	"['nightmarish']" -> "['chilling']";
+	"['nightmarish']" -> "['petrifying']";
+	"['threatening']" -> "['chilling']";
+	"['chilling']" -> "['appalling', 'stupefying']";
+	"['petrifying']" -> "['appalling', 'stupefying']";
+}

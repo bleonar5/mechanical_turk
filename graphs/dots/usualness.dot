@@ -1,0 +1,12 @@
+strict digraph  {
+	"['accustomed']" -> "['chronic']";
+	"['chronic']" -> "['unaccustomed']";
+	"['chronic']" -> "['peculiar']";
+	"['out-of-the-way']" -> "['unusual']";
+	"['out-of-the-way']" -> "['odd']";
+	"['out-of-the-way']" -> "['different', 'unique']";
+	"['out-of-the-way']" -> "['extraordinary']";
+	"['unaccustomed']" -> "['out-of-the-way']";
+	"['regular', 'usual']" -> "['accustomed']";
+	"['peculiar']" -> "['out-of-the-way']";
+}

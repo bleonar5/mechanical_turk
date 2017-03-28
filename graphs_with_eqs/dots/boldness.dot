@@ -1,0 +1,6 @@
+strict digraph  {
+	"['daredevil']" -> "['reckless']";
+	"['daredevil']" -> "['emboldened', 'heroic']";
+	"['reckless']" -> "['nervy']";
+	"['overvaliant']" -> "['nervy']";
+}

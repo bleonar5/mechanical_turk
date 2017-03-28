@@ -1,0 +1,7 @@
+strict digraph  {
+	"['appropriate', 'befitting', 'pertinent', 'right']" -> "['apropos', 'grade-appropriate']";
+	"['apropos', 'grade-appropriate']" -> "['unbefitting']";
+	"['apropos', 'grade-appropriate']" -> "['malapropos']";
+	"['unbefitting']" -> "['inappropriate', 'wrong']";
+	"['malapropos']" -> "['inappropriate', 'wrong']";
+}

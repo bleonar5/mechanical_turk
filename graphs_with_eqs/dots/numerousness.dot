@@ -1,0 +1,9 @@
+strict digraph  {
+	"['many']" -> "['some']";
+	"['some']" -> "['few']";
+	"['galore', 'numerous']" -> "['few']";
+	"['galore', 'numerous']" -> "['umpteen']";
+	"['few']" -> "['a_couple_of']";
+	"['umpteen']" -> "['hardly_a']";
+	"['a_couple_of']" -> "['hardly_a']";
+}

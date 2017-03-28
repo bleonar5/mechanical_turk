@@ -1,0 +1,17 @@
+strict digraph  {
+	"['bedraggled']" -> "['dirty']";
+	"['bedraggled']" -> "['filthy']";
+	"['oily']" -> "['fouled']";
+	"['fouled']" -> "['cobwebby']";
+	"['unstained']" -> "['scrubbed']";
+	"['scrubbed']" -> "['oily']";
+	"['scrubbed']" -> "['dingy']";
+	"['clean']" -> "['scrubbed']";
+	"['dingy']" -> "['fouled']";
+	"['muddy']" -> "['dirty']";
+	"['muddy']" -> "['filthy']";
+	"['washed']" -> "['unstained']";
+	"['cobwebby']" -> "['bedraggled']";
+	"['cobwebby']" -> "['muddy']";
+	"['immaculate', 'pristine']" -> "['clean']";
+}

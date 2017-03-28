@@ -1,0 +1,11 @@
+strict digraph  {
+	"['intellectual']" -> "['rational']";
+	"['rational']" -> "['highbrow']";
+	"['anti-intellectual']" -> "['mindless']";
+	"['nonintellectual']" -> "['lowbrow']";
+	"['lowbrow']" -> "['mindless']";
+	"['reflective']" -> "['anti-intellectual']";
+	"['reflective']" -> "['nonintellectual']";
+	"['highbrow']" -> "['reflective']";
+	"['sophisticated']" -> "['rational']";
+}

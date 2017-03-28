@@ -1,0 +1,6 @@
+strict digraph  {
+	"['audible', 'sounding']" -> "['inaudible', 'silent', 'unheard']";
+	"['ultrasonic']" -> "['audible', 'sounding']";
+	"['ultrasonic']" -> "['breathed']";
+	"['breathed']" -> "['inaudible', 'silent', 'unheard']";
+}

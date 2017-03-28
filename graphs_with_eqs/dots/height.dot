@@ -1,0 +1,14 @@
+strict digraph  {
+	"['towering']" -> "['low-level']";
+	"['towering']" -> "['high-level']";
+	"['low-level']" -> "['low-lying']";
+	"['high-level']" -> "['high-topped']";
+	"['high-topped']" -> "['low-lying']";
+	"['altitudinous']" -> "['high-topped']";
+	"['altitudinous']" -> "['low']";
+	"['low']" -> "['low-level']";
+	"['high']" -> "['high-topped']";
+	"['high']" -> "['low']";
+	"['upper']" -> "['low']";
+	"['upper']" -> "['squat']";
+}

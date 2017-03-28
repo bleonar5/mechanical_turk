@@ -1,0 +1,14 @@
+strict digraph  {
+	"['twisting']" -> "['untwisted']";
+	"['untwisted']" -> "['hooked', 'wry']";
+	"['hooked', 'wry']" -> "['squiggly']";
+	"['hooked', 'wry']" -> "['knotted']";
+	"['knotted']" -> "['awry']";
+	"['knotted']" -> "['warped']";
+	"['knotted']" -> "['geniculate']";
+	"['contorted']" -> "['twisting']";
+	"['crooked']" -> "['knotted']";
+	"['awry']" -> "['straight']";
+	"['awry']" -> "['aligned']";
+	"['awry']" -> "['unbent']";
+}

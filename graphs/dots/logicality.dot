@@ -1,0 +1,8 @@
+strict digraph  {
+	"['intuitive']" -> "['absurd']";
+	"['intuitive']" -> "['inconsequential']";
+	"['absurd']" -> "['illogical']";
+	"['inconsequential']" -> "['illogical']";
+	"['ratiocinative']" -> "['intuitive']";
+	"['logical']" -> "['ratiocinative']";
+}

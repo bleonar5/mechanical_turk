@@ -1,0 +1,11 @@
+strict digraph  {
+	"['titillating']" -> "['breathless', 'electric']";
+	"['breathless', 'electric']" -> "['heady']";
+	"['tame']" -> "['commonplace']";
+	"['commonplace']" -> "['uninspired']";
+	"['commonplace']" -> "['unexciting']";
+	"['heady']" -> "['tame']";
+	"['tingling']" -> "['breathless', 'electric']";
+	"['exciting', 'exhilarating', 'thrilling']" -> "['titillating']";
+	"['exciting', 'exhilarating', 'thrilling']" -> "['tingling']";
+}

@@ -1,0 +1,13 @@
+strict digraph  {
+	"['hypnotic', 'magnetic']" -> "['attractive']";
+	"['attractive']" -> "['personable']";
+	"['plain']" -> "['unattractive']";
+	"['dinky', 'unprepossessing']" -> "['unattractive']";
+	"['winsome']" -> "['plain']";
+	"['winsome']" -> "['dinky', 'unprepossessing']";
+	"['taking']" -> "['fascinating']";
+	"['fascinating']" -> "['winsome']";
+	"['irresistible']" -> "['attractive']";
+	"['photogenic']" -> "['taking']";
+	"['personable']" -> "['photogenic']";
+}

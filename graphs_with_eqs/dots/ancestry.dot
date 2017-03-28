@@ -1,0 +1,3 @@
+strict digraph  {
+	"['pedigree', 'purebred']" -> "['crossbred', 'half-breed', 'hybrid']";
+}

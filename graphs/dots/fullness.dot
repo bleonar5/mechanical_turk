@@ -1,0 +1,8 @@
+strict digraph  {
+	"['looted']" -> "['empty', 'vacant', 'void']";
+	"['bare', 'lifeless']" -> "['looted']";
+	"['riddled']" -> "['congested']";
+	"['congested']" -> "['bare', 'lifeless']";
+	"['flooded', 'heavy', 'loaded', 'stuffed']" -> "['riddled']";
+	"['brimful', 'filled', 'full']" -> "['flooded', 'heavy', 'loaded', 'stuffed']";
+}

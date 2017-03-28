@@ -1,0 +1,7 @@
+strict digraph  {
+	"['affined', 'connected', 'engaged', 'joined', 'well-connected']" -> "['contiguous']";
+	"['contiguous']" -> "['neighboring']";
+	"['asternal']" -> "['separate', 'unattached', 'unconnected', 'uncoupled']";
+	"['separate', 'unattached', 'unconnected', 'uncoupled']" -> "['apart']";
+	"['neighboring']" -> "['asternal']";
+}

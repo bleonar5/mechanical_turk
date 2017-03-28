@@ -1,0 +1,6 @@
+strict digraph  {
+	"['halfway']" -> "['fractional', 'fragmentary']";
+	"['fractional', 'fragmentary']" -> "['broken', 'divisional']";
+	"['undivided']" -> "['halfway']";
+	"['entire']" -> "['undivided']";
+}

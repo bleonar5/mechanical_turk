@@ -1,0 +1,6 @@
+strict digraph  {
+	"['distracted']" -> "['absent', 'inattentive']";
+	"['absorbed', 'attentive', 'solicitous']" -> "['absent', 'inattentive']";
+	"['observant']" -> "['distracted']";
+	"['yawning']" -> "['distracted']";
+}

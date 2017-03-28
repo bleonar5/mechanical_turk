@@ -1,0 +1,14 @@
+strict digraph  {
+	"['frangible']" -> "['shatterproof']";
+	"['frangible']" -> "['infrangible']";
+	"['infrangible']" -> "['unbreakable']";
+	"['brittle']" -> "['friable']";
+	"['brittle']" -> "['splintery']";
+	"['friable']" -> "['shatterproof']";
+	"['friable']" -> "['infrangible']";
+	"['splintery']" -> "['frangible']";
+	"['delicate']" -> "['friable']";
+	"['delicate']" -> "['splintery']";
+	"['breakable']" -> "['brittle']";
+	"['breakable']" -> "['delicate']";
+}

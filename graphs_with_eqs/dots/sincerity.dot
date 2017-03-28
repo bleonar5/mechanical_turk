@@ -1,0 +1,6 @@
+strict digraph  {
+	"['heart-whole', 'honest', 'sincere', 'true']" -> "['plausible']";
+	"['plausible']" -> "['dissimulative', 'false', 'feigned', 'gilded', 'insincere']";
+	"['hypocritical']" -> "['dissimulative', 'false', 'feigned', 'gilded', 'insincere']";
+	"['cordial']" -> "['hypocritical']";
+}

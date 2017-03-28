@@ -1,0 +1,8 @@
+strict digraph  {
+	"['well-ordered']" -> "['timed']";
+	"['uniform']" -> "['regular']";
+	"['uniform']" -> "['occasional']";
+	"['regular']" -> "['timed']";
+	"['official']" -> "['timed']";
+	"['official']" -> "['occasional']";
+}

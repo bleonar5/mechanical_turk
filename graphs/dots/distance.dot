@@ -1,0 +1,16 @@
+strict digraph  {
+	"['distant', 'far']" -> "['removed']";
+	"['removed']" -> "['walking']";
+	"['out-of-town']" -> "['distant', 'far']";
+	"['walking']" -> "['approximate']";
+	"['approximate']" -> "['immediate']";
+	"['approximate']" -> "['next']";
+	"['approximate']" -> "['close']";
+	"['farther']" -> "['deep']";
+	"['deep']" -> "['out-of-town']";
+	"['immediate']" -> "['adjacent', 'nearby']";
+	"['next']" -> "['adjacent', 'nearby']";
+	"['further']" -> "['deep']";
+	"['utmost']" -> "['deep']";
+	"['close']" -> "['adjacent', 'nearby']";
+}

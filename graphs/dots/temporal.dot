@@ -1,0 +1,10 @@
+strict digraph  {
+	"['preparatory']" -> "['introductory']";
+	"['introductory']" -> "['consecutive']";
+	"['consecutive']" -> "['preceding']";
+	"['postmortem']" -> "['following']";
+	"['following']" -> "['consecutive']";
+	"['following']" -> "['ensuing']";
+	"['ensuing']" -> "['preceding']";
+	"['next']" -> "['preparatory']";
+}

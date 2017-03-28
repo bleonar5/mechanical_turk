@@ -1,0 +1,6 @@
+strict digraph  {
+	"['commercial', 'mercantile']" -> "['nonprofit']";
+	"['commercial', 'mercantile']" -> "['noncommercial', 'uncommercial']";
+	"['mercenary']" -> "['nonprofit']";
+	"['mercenary']" -> "['noncommercial', 'uncommercial']";
+}

@@ -1,0 +1,7 @@
+strict digraph  {
+	"['in', 'incoming', 'inward']" -> "['past']";
+	"['in', 'incoming', 'inward']" -> "['inpouring']";
+	"['in', 'incoming', 'inward']" -> "['outward']";
+	"['past']" -> "['out', 'outgoing']";
+	"['outward']" -> "['out', 'outgoing']";
+}

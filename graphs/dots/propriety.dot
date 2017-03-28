@@ -1,0 +1,9 @@
+strict digraph  {
+	"['out-of-the-way']" -> "['improper']";
+	"['improper']" -> "['indecent']";
+	"['becoming']" -> "['right']";
+	"['right']" -> "['out-of-the-way']";
+	"['indecent']" -> "['wrong']";
+	"['fitting']" -> "['right']";
+	"['proper']" -> "['fitting']";
+}

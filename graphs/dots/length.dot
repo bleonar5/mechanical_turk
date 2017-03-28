@@ -1,0 +1,16 @@
+strict digraph  {
+	"['elongated']" -> "['extended']";
+	"['extended']" -> "['far']";
+	"['extended']" -> "['long-range']";
+	"['long-handled']" -> "['extended']";
+	"['oblong']" -> "['truncated']";
+	"['truncated']" -> "['close']";
+	"['truncated']" -> "['stubby']";
+	"['close']" -> "['short-range']";
+	"['short-range']" -> "['brief']";
+	"['short-range']" -> "['short']";
+	"['stubby']" -> "['short-range']";
+	"['far']" -> "['stretch']";
+	"['stretch']" -> "['oblong']";
+	"['long']" -> "['elongated']";
+}

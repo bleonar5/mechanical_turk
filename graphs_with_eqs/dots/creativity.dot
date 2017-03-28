@@ -1,0 +1,8 @@
+strict digraph  {
+	"['fanciful']" -> "['sterile']";
+	"['fanciful']" -> "['uncreative']";
+	"['creative', 'imaginative']" -> "['fanciful']";
+	"['creative', 'imaginative']" -> "['fictive']";
+	"['fictive']" -> "['sterile']";
+	"['fictive']" -> "['uncreative']";
+}

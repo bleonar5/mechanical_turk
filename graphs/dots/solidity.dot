@@ -1,0 +1,3 @@
+strict digraph  {
+	"['solid']" -> "['cavernous', 'fistular', 'hollow', 'tubular']";
+}

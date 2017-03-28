@@ -1,0 +1,5 @@
+strict digraph  {
+	"['direct', 'nonstop', 'straightforward', 'undeviating']" -> "['point-blank', 'through']";
+	"['point-blank', 'through']" -> "['winding']";
+	"['winding']" -> "['diversionary', 'indirect', 'roundabout']";
+}

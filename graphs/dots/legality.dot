@@ -1,0 +1,18 @@
+strict digraph  {
+	"['extrajudicial']" -> "['criminal', 'illegal']";
+	"['extralegal']" -> "['extrajudicial']";
+	"['extralegal']" -> "['embezzled']";
+	"['extralegal']" -> "['prohibited']";
+	"['embezzled']" -> "['criminal', 'illegal']";
+	"['prohibited']" -> "['criminal', 'illegal']";
+	"['penal']" -> "['ineligible']";
+	"['ineligible']" -> "['extralegal']";
+	"['ineligible']" -> "['outlawed']";
+	"['judicial', 'legitimate']" -> "['court-ordered']";
+	"['court-ordered']" -> "['penal']";
+	"['outlawed']" -> "['embezzled']";
+	"['outlawed']" -> "['prohibited']";
+	"['legal', 'statutory']" -> "['judicial', 'legitimate']";
+	"['legal', 'statutory']" -> "['ratified']";
+	"['ratified']" -> "['court-ordered']";
+}

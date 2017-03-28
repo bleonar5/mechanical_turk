@@ -1,0 +1,8 @@
+strict digraph  {
+	"['permed']" -> "['wavy']";
+	"['wavy']" -> "['unpermed']";
+	"['wavy']" -> "['uncurled']";
+	"['unpermed']" -> "['straight']";
+	"['uncurled']" -> "['straight']";
+	"['curled', 'curly', 'ringleted']" -> "['permed']";
+}

@@ -1,0 +1,4 @@
+strict digraph  {
+	"['equivocal']" -> "['inconclusive', 'indeterminate']";
+	"['conclusive', 'definitive']" -> "['equivocal']";
+}

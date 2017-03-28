@@ -1,0 +1,5 @@
+strict digraph  {
+	"['groping']" -> "['doubtful']";
+	"['certain', 'positive']" -> "['doubtful']";
+	"['certain', 'positive']" -> "['ambivalent']";
+}

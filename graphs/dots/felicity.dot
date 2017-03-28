@@ -1,0 +1,9 @@
+strict digraph  {
+	"['congratulatory']" -> "['happy']";
+	"['congratulatory']" -> "['well-wishing']";
+	"['happy']" -> "['infelicitous', 'unfortunate']";
+	"['happy']" -> "['awkward']";
+	"['well-wishing']" -> "['infelicitous', 'unfortunate']";
+	"['well-wishing']" -> "['awkward']";
+	"['felicitous']" -> "['congratulatory']";
+}

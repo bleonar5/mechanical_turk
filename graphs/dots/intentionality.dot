@@ -1,0 +1,10 @@
+strict digraph  {
+	"['knowing']" -> "['accidental', 'unintended', 'unwitting']";
+	"['measured']" -> "['knowing']";
+	"['measured']" -> "['well-meaning']";
+	"['well-meaning']" -> "['accidental', 'unintended', 'unwitting']";
+	"['intended']" -> "['measured']";
+	"['intended']" -> "['conscious']";
+	"['conscious']" -> "['knowing']";
+	"['conscious']" -> "['well-meaning']";
+}

@@ -1,0 +1,7 @@
+strict digraph  {
+	"['inherent']" -> "['implicit']";
+	"['expressed', 'stated']" -> "['inherent']";
+	"['expressed', 'stated']" -> "['unspoken']";
+	"['graphic']" -> "['definitive']";
+	"['definitive']" -> "['expressed', 'stated']";
+}

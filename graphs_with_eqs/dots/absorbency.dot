@@ -1,0 +1,5 @@
+strict digraph  {
+	"['absorbefacient', 'absorptive']" -> "['spongy']";
+	"['absorbefacient', 'absorptive']" -> "['nonabsorbent']";
+	"['absorbefacient', 'absorptive']" -> "['receptive']";
+}

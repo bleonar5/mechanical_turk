@@ -1,0 +1,5 @@
+strict digraph  {
+	"['unacquainted']" -> "['strange', 'unfamiliar']";
+	"['acquainted']" -> "['strange', 'unfamiliar']";
+	"['familiar', 'well-known']" -> "['strange', 'unfamiliar']";
+}

@@ -1,0 +1,4 @@
+strict digraph  {
+	"['apart', 'asunder', 'isolated', 'separate']" -> "['disjoint', 'distinct']";
+	"['disjoint', 'distinct']" -> "['unaccompanied']";
+}

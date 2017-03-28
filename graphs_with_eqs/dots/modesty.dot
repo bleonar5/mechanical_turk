@@ -1,0 +1,7 @@
+strict digraph  {
+	"['coy']" -> "['indecent']";
+	"['coy']" -> "['immodest']";
+	"['modest']" -> "['indecent']";
+	"['decent']" -> "['indecent']";
+	"['decent']" -> "['immodest']";
+}

@@ -1,0 +1,7 @@
+strict digraph  {
+	"['featured', 'prominent']" -> "['obscure']";
+	"['obscure']" -> "['invisible']";
+	"['attention-getting']" -> "['obscure']";
+	"['bold']" -> "['obscure']";
+	"['conspicuous']" -> "['featured', 'prominent']";
+}

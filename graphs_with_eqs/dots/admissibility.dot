@@ -1,0 +1,3 @@
+strict digraph  {
+	"['admissible', 'admittable', 'allowable', 'permissible']" -> "['impermissible', 'inadmissible']";
+}

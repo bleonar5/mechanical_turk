@@ -1,0 +1,14 @@
+strict digraph  {
+	"['all-purpose', 'general', 'universal', 'widespread']" -> "['overall']";
+	"['all-purpose', 'general', 'universal', 'widespread']" -> "['pandemic']";
+	"['overall']" -> "['proper']";
+	"['overall']" -> "['particular']";
+	"['pandemic']" -> "['proper']";
+	"['pandemic']" -> "['particular']";
+	"['proper']" -> "['circumstantial', 'special']";
+	"['particular']" -> "['circumstantial', 'special']";
+	"['broad']" -> "['proper']";
+	"['broad']" -> "['particular']";
+	"['ad_hoc']" -> "['particular']";
+	"['circumstantial', 'special']" -> "['unique']";
+}

@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<script type="text/javascript" src2="http://mbostock.github.com/d3/d3.js" src="https://d3js.org/d3.v2.js">
+			</script>
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+            <script src="https://code.jquery.com/jquery-1.11.3.min.js">
+            </script>
+            <script src="https://s3.amazonaws.com/mturk-public/externalHIT_v1.js" >
+            </script>
+		</head>
+		<body onload="adj_grab()">
+				<div >
+
+					<svg  id="slider" width="700" height="200">
+					    <line id="scale" x1="150" y1="45%" x2="150" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="200" y1="45%" x2="200" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="250" y1="45%" x2="250" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="300" y1="45%" x2="300" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="350" y1="45%" x2="350" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="400" y1="45%" x2="400" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="450" y1="45%" x2="450" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="500" y1="45%" x2="500" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="550" y1="45%" x2="550" y2="55%" stroke="black" stroke-width="1"></line>
+					    <line id="scale" x1="100" y1="50%" x2="600" y2="50%" stroke="black" stroke-width="1"></line>
+					</svg>
+				</div>
+                <div>
+                    <svg id="key" width="700" height="50"> 
+                    </svg>
+                </div>
+			<script type="text/javascript" >
+                var attr = ""
+
+
+                //gets circleData from server
+                function adj_grab(){
+                    $.ajax({
+                        url: "adjs/" + (attr = attrs[Math.floor(Math.random() * 3)]),
+                        type: "GET",
+                        dataType: "JSON",
+                        success: function(data) {
+                            circleData = data;
+                            //console.log(data);
+
+                            d3.select("#slider")
+                            	.selectAll("text.attr")
+                            	.data(attr.split("-"))
+                            	.enter()
+                            	.append("text")
+                            	.each(function(d,i){
+                            		d3.select(this)
+                            			.attr("x",  600 * i + (25 * i))
+                            			.attr("y", "52%")
+                            			.attr("textLength",75)
+                            			.attr("font-size",20)
+                            			.attr("class","attr")
+                            			.text(d);
+                            	});
+
+                            init();
+                        }
+                    });
+                }
+
+
+                //sends new json values back to server
+                //don't currently call this, sends to mturk instead
+                function send_json(succ){
+                    $.ajax({
+                        url: "adjs/" + attr,
+                        type: "POST",
+                        dataType: "JSON",
+                        data: { circleData : circleData },
+                        success: function(data) {
+                        	console.log("yes baby");
+                        }
+                    });
+                }
+
+				//array of JSONs of adjective-value pairs
+				//circleData = [{"adj":"awful","value":1},{"adj":"bad","value":3},{"adj":"decent","value":5},{"adj":"good","value":6},{"adj":"great","value":8}];
+
+                attrs = ['shorter-taller','worse-better','smaller-bigger'];
+
+                circleData = [];
+
+				//set of possible colors
+				colors = ["blue","red","yellow","green","orange","purple","pink","maroon","magenta","gray"];
+
+
+				//rounds number to nearest multiple of 5, to represent discrete slider values
+				function round(x) {
+					if(Math.ceil(x/50) * 50 - x > 25)
+						return Math.floor(x/50) * 50;
+					else
+						return Math.ceil(x/50) * 50;
+				}
+
+				//changes message below add adjective button
+				function change_message(str){
+					$("#add_field").val('');
+					d3.select('#error').text(str);
+
+				}
+
+				//Checks to see if submitted adjective is valid and unique, then updates json array and reloads svg
+				function add_adj() {
+					var input = d3.select("#add_field");
+					var adj = input.node().value;
+					
+					//assumes there are no valid multi-word or length < 2 adjectives
+					if(adj.length > 2 & adj.split(" ").length == 1){
+						//checks if adjective already on slider
+						for(i=0;i<circleData.length;i++){
+							if(circleData[i].adj.toLowerCase() == adj.toLowerCase()){
+								change_message("cannot include " + adj + " twice");
+								return;
+							}
+
+						}
+
+						//remove any error message
+						change_message("");
+
+						//add new adjective to JSON array
+						circleData.push({"adj":adj,"val":0, "attr":attr});
+
+						//removes svg elements
+						d3.selectAll("circle").remove();
+						d3.selectAll("rect").remove();
+						d3.selectAll("text.key").remove();
+
+						update_form();
+						//reloads svg elements
+						init();
+					}
+					//displays message if input adjective invalid
+					else
+						change_message("adjective must be one word and at least three letters long");
+
+					
+				}
+
+				function update_form(){
+					d3.select("#mturk_form")
+						.selectAll("input.answer")
+						.remove();
+
+					d3.select("#mturk_form").selectAll("input.answer")
+						.data(circleData)
+						.enter()
+						.append("input")
+						.attr("type","hidden")
+						.attr("class","answer")
+						.attr("name",function(d){
+							return d.adj;
+						})
+						.attr("value",function(d){
+							return d.val;
+						});
+				}
+
+
+				//removes selected element from slider and reloads
+				function remove_adj(){
+
+					var adj = d3.select("#adjs").node().value;
+
+					//finds relevant node
+					for(i = 0;i < circleData.length; i++){
+						if(circleData[i].adj == adj){
+							//removes adjective-value pair from list
+							circleData.splice(i,1);
+
+							//removes svg elements
+							d3.selectAll("circle").remove();
+							d3.selectAll("rect").remove();
+							d3.selectAll("text.key").remove();
+							d3.selectAll("option").remove();
+
+							update_form();
+
+							//reloads
+							init();
+							return;
+						}
+					}
+				}
+
+				function dragmove(d) {
+					var temp = 0, id = 0;
+					//updates location of circle
+					var circle = d3.select(this)
+						.attr("cx", temp = round(Math.min(600,Math.max(d3.event.x, 100))));
+
+					id = circle.attr('id');
+
+					//updates JSON array
+					circleData[id].val = (temp - 100) / 50;
+
+					//stacks circles if necessary
+					d3.select("#slider").selectAll("circle").each(function(d,i){
+						var stack = 0;
+
+						for(j = 0;j<i;j++){
+							if(circleData[j].val == circleData[i].val)
+								stack++;
+						}
+
+						var offset = 10;
+
+						if(stack >= 4)
+							offset = 10 - (stack - 3);
+
+						//stacks circle
+						var circ = d3.select(this).attr("cy",parseInt(50 - offset * stack) + "%");
+						//updates tooltip
+						circ.select("title").text( function(d) {
+							return d.adj + " = " + circleData[i].val;});
+					});
+					update_form();
+				};
+
+				//drag behavior
+				var drag = d3.behavior.drag()
+					.on("drag",dragmove);
+
+				//called on load and after adjectives are added or removed
+				function init() {
+					update_form();
+
+					var selectDiv = d3.select("#slider");
+
+					var temp = 0;
+
+					var selectCircles = selectDiv.selectAll("circle")
+						.data(circleData)
+						.enter()
+						.append("circle")
+						//places circle according to json value
+						.attr("cx", function(d){return temp = (parseInt(d.val) * 50) + 100})
+						.attr("cy","50%")
+						.attr("r","4%")
+						.style("stroke-width","1%")
+						.attr("class","draggable")
+						.style("cursor","all-scroll")
+						.call(drag)
+						.each(function(d,i){
+							//stacks circles if necessary
+							d3.select(this)
+								.attr("id",i)
+								.style("fill",colors[i])
+								.style("stroke",colors[i])
+								.style("fill-opacity",0.8);
+
+							var stack = 0;
+
+							for(j = 0;j<i;j++){
+								if(circleData[j].val == circleData[i].val)
+									stack++;
+							}
+
+							var offset = 10;
+
+							if(stack >= 4)
+								offset = 10 - (stack - 3);
+
+							d3.select(this).attr("cy",parseInt(50 - offset * stack) + "%");
+						})
+						//adds tooltip
+						.append("svg:title")
+						.text(function(d) {return d.adj + " = " + d.val});
+							
+					var selectKey = d3.select("#key");
+
+					//adds rectangles for color key
+					selectKey.selectAll("circle")
+						.data(circleData)
+						.enter()
+						.append("circle")
+						.attr("cy","50%")
+						.attr("r", Math.min(17,175 / circleData.length / 2 - 5))
+						.attr("width", 175 / circleData.length)
+						.each(function(d,i){
+							d3.select(this)
+								.attr("cx", 700 / circleData.length * i + (175/circleData.length / 2))
+								.style("fill",colors[i])
+                                .style("fill-opacity",0.6)
+                                .style("stroke-width",5)
+								.style("stroke",colors[i]);
+						});
+
+					//adds text for color key
+					selectKey.selectAll("text")
+						.data(circleData)
+						.enter()
+						.append("text")
+						.attr("class","key")
+						.text(function(d) { return "= " + d.adj;})
+						//adjusts font-size according to number of adjs and length of adj, caps at 33.33
+						.attr('textLength', function(d){
+							return (700 / circleData.length) * .75;
+						})
+						.attr("font-size",function(d) { return Math.min(33.33,(1000 / circleData.length) / (d.adj.length + 4)); })
+						.attr("y","65%")
+						.each(function(d,i){
+							d3.select(this).attr("x",(175 / circleData.length) + ((700 / circleData.length) * i));
+						});
+
+					//fills options for adjective
+					d3.select("#adjs").selectAll("option")
+						.data(circleData)
+						.enter()
+						.append("option")
+						.each(function(d,i){
+							d3.select(this)
+								.attr("value", circleData[i].adj)
+								.text(circleData[i].adj);
+						})
+				};
+				
+				
+
+
+
+			</script>
+		</body>
+		<div width="50%" id="add_adj" class="input-group">
+			<input id="add_field"
+				type="text"
+				class="form-control"
+				placeholder="Your new adjective..." 
+				onkeypress= "if (event.keyCode == 13)
+					document.getElementById('add_button').click()">
+			<span class="input-group-btn">
+				<button name="add_button"
+					id="add_button"
+					type="button"
+					class="btn btn-primary"
+					onclick="add_adj()" >
+				ADD ADJECTIVE
+				</button>
+			</span>
+		</div>
+		<div id="error">
+		</div>
+		<div class="input-group">
+			<select id="adjs" class="form-control">
+			</select>
+			<span class="input-group-btn">
+				<button name="remove_adj"
+					type="button"
+					class="btn btn-info"
+					value="remove adjective from slider"
+					onclick="remove_adj()" >
+				REMOVE ADJECTIVE
+				</button>
+			</span>
+		</div>
+        <div class="input-group">
+        	<form name="mturk_form" method="post" id="mturk_form" enctype="application/json" action="https://www.workersandbox.mturk.com/mturk/externalSubmit">
+        		<input type="hidden" value="" name="assignmentId" id="assignmentId" />
+	            <input type="submit" name="submitButton"
+	             id="submitButton"  class="btn btn-success" onclick="" >
+	            </input>
+	        </form>
+        </div>
+        <script language="Javascript">turkSetAssignmentID();</script>
+	</html>

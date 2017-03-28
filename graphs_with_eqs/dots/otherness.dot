@@ -1,0 +1,5 @@
+strict digraph  {
+	"['another']" -> "['new']";
+	"['different', 'opposite', 'other']" -> "['another']";
+	"['different', 'opposite', 'other']" -> "['otherwise']";
+}

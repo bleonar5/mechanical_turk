@@ -1,0 +1,6 @@
+strict digraph  {
+	"['able', 'capable']" -> "['resourceful']";
+	"['able', 'capable']" -> "['confident']";
+	"['resourceful']" -> "['incapable', 'unable']";
+	"['confident']" -> "['incapable', 'unable']";
+}

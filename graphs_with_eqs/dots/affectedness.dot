@@ -1,0 +1,6 @@
+strict digraph  {
+	"['artificial', 'elocutionary']" -> "['natural']";
+	"['affected', 'forced']" -> "['artificial', 'elocutionary']";
+	"['affected', 'forced']" -> "['unstilted']";
+	"['unstilted']" -> "['natural']";
+}

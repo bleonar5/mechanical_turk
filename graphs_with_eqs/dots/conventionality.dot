@@ -1,0 +1,10 @@
+strict digraph  {
+	"['customary', 'formulaic']" -> "['bohemian', 'unconventional']";
+	"['customary', 'formulaic']" -> "['irregular']";
+	"['customary', 'formulaic']" -> "['go-as-you-please']";
+	"['customary', 'formulaic']" -> "['stuffy']";
+	"['conventional']" -> "['bohemian', 'unconventional']";
+	"['conventional']" -> "['irregular']";
+	"['conventional']" -> "['go-as-you-please']";
+	"['conventional']" -> "['stuffy']";
+}

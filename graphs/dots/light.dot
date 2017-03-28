@@ -1,0 +1,19 @@
+strict digraph  {
+	"['luminescent']" -> "['fluorescent', 'incandescent']";
+	"['luminescent']" -> "['phosphorescent']";
+	"['fluorescent', 'incandescent']" -> "['white']";
+	"['fluorescent', 'incandescent']" -> "['floodlit']";
+	"['phosphorescent']" -> "['white']";
+	"['phosphorescent']" -> "['floodlit']";
+	"['white']" -> "['cimmerian']";
+	"['floodlit']" -> "['cimmerian']";
+	"['twilight']" -> "['dim']";
+	"['dim']" -> "['acheronian']";
+	"['acheronian']" -> "['dark', 'darkling']";
+	"['aphotic']" -> "['dim']";
+	"['dark', 'darkling']" -> "['black']";
+	"['bright']" -> "['phosphorescent']";
+	"['cimmerian']" -> "['twilight']";
+	"['cimmerian']" -> "['aphotic']";
+	"['ablaze', 'light']" -> "['luminescent']";
+}

@@ -1,0 +1,5 @@
+strict digraph  {
+	"['half-breed', 'hybrid']" -> "['crossbred']";
+	"['half-breed', 'hybrid']" -> "['underbred']";
+	"['pedigree', 'purebred']" -> "['half-breed', 'hybrid']";
+}

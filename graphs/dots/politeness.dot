@@ -1,0 +1,7 @@
+strict digraph  {
+	"['nice']" -> "['unparliamentary']";
+	"['unparliamentary']" -> "['discourteous']";
+	"['unparliamentary']" -> "['brattish']";
+	"['discourteous']" -> "['impolite', 'rude']";
+	"['mannerly', 'polite']" -> "['unparliamentary']";
+}

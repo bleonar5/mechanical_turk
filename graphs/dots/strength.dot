@@ -1,0 +1,15 @@
+strict digraph  {
+	"['fortified', 'strong']" -> "['powerful']";
+	"['powerful']" -> "['rugged', 'tough']";
+	"['virile']" -> "['stiff']";
+	"['stiff']" -> "['pale']";
+	"['stiff']" -> "['faint']";
+	"['rugged', 'tough']" -> "['reinforced']";
+	"['reinforced']" -> "['virile']";
+	"['pale']" -> "['tender']";
+	"['pale']" -> "['dainty', 'feeble', 'vulnerable']";
+	"['dainty', 'feeble', 'vulnerable']" -> "['delicate', 'puny']";
+	"['dainty', 'feeble', 'vulnerable']" -> "['fragile', 'weak']";
+	"['faint']" -> "['tender']";
+	"['faint']" -> "['dainty', 'feeble', 'vulnerable']";
+}

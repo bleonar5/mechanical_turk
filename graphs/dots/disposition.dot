@@ -1,0 +1,9 @@
+strict digraph  {
+	"['prepared']" -> "['reluctant']";
+	"['prepared']" -> "['grudging']";
+	"['reluctant']" -> "['unwilling']";
+	"['grudging']" -> "['unwilling']";
+	"['consenting']" -> "['reluctant']";
+	"['consenting']" -> "['grudging']";
+	"['willing']" -> "['prepared']";
+}

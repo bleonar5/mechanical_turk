@@ -1,0 +1,18 @@
+strict digraph  {
+	"['brachydactylic']" -> "['supernormal']";
+	"['natural']" -> "['mean']";
+	"['mean']" -> "['irregular']";
+	"['subnormal']" -> "['unnatural']";
+	"['unnatural']" -> "['brachydactylic']";
+	"['irregular']" -> "['perverted']";
+	"['irregular']" -> "['aberrant']";
+	"['irregular']" -> "['anomalous']";
+	"['perverted']" -> "['defective', 'freakish']";
+	"['typical']" -> "['regular']";
+	"['regular']" -> "['natural']";
+	"['aberrant']" -> "['defective', 'freakish']";
+	"['average']" -> "['natural']";
+	"['normal']" -> "['typical']";
+	"['normal']" -> "['average']";
+	"['anomalous']" -> "['subnormal']";
+}

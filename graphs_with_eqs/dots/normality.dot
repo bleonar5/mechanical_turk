@@ -1,0 +1,28 @@
+strict digraph  {
+	"['brachydactylic']" -> "['aberrant']";
+	"['natural']" -> "['mean']";
+	"['natural']" -> "['supernormal']";
+	"['natural']" -> "['irregular']";
+	"['irregular']" -> "['defective', 'freakish']";
+	"['irregular']" -> "['unnatural']";
+	"['irregular']" -> "['anomalous']";
+	"['subnormal']" -> "['defective', 'freakish']";
+	"['subnormal']" -> "['unnatural']";
+	"['unnatural']" -> "['brachydactylic']";
+	"['unnatural']" -> "['perverted']";
+	"['typical']" -> "['brachydactylic']";
+	"['typical']" -> "['mean']";
+	"['average']" -> "['brachydactylic']";
+	"['average']" -> "['mean']";
+	"['average']" -> "['supernormal']";
+	"['average']" -> "['anomalous']";
+	"['anomalous']" -> "['aberrant']";
+	"['anomalous']" -> "['perverted']";
+	"['normal']" -> "['typical']";
+	"['normal']" -> "['anomalous']";
+	"['normal']" -> "['regular']";
+	"['regular']" -> "['brachydactylic']";
+	"['regular']" -> "['mean']";
+	"['regular']" -> "['supernormal']";
+	"['regular']" -> "['perverted']";
+}

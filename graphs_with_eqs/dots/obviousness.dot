@@ -1,0 +1,8 @@
+strict digraph  {
+	"['marked']" -> "['detectable']";
+	"['detectable']" -> "['transparent']";
+	"['detectable']" -> "['unobvious']";
+	"['obvious']" -> "['apparent', 'evident', 'self-evident']";
+	"['apparent', 'evident', 'self-evident']" -> "['marked']";
+	"['unapparent', 'unnoticeable']" -> "['unobvious']";
+}

@@ -1,0 +1,8 @@
+strict digraph  {
+	"['horrified', 'terror-stricken']" -> "['alarmed']";
+	"['alarmed']" -> "['acrophobic', 'agoraphobic', 'algophobic', 'claustrophobic', 'mysophobic']";
+	"['acrophobic', 'agoraphobic', 'algophobic', 'claustrophobic', 'mysophobic']" -> "['apprehensive']";
+	"['fearful']" -> "['alarmed']";
+	"['apprehensive']" -> "['fearless']";
+	"['afraid', 'frightened']" -> "['alarmed']";
+}

@@ -1,0 +1,5 @@
+strict digraph  {
+	"['right']" -> "['mistaken']";
+	"['mistaken']" -> "['criminal', 'wrong']";
+	"['ethical']" -> "['mistaken']";
+}

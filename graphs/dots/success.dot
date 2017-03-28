@@ -1,0 +1,16 @@
+strict digraph  {
+	"['down-and-out']" -> "['hitless', 'scoreless', 'winless']";
+	"['hitless', 'scoreless', 'winless']" -> "['ruined']";
+	"['hitless', 'scoreless', 'winless']" -> "['defeated']";
+	"['hitless', 'scoreless', 'winless']" -> "['unsuccessful']";
+	"['unfulfilled']" -> "['down-and-out']";
+	"['unfulfilled']" -> "['self-defeating']";
+	"['self-defeating']" -> "['ruined']";
+	"['self-defeating']" -> "['defeated']";
+	"['productive']" -> "['attempted']";
+	"['attempted']" -> "['unfulfilled']";
+	"['roaring']" -> "['productive']";
+	"['successful', 'winning']" -> "['roaring']";
+	"['successful', 'winning']" -> "['made']";
+	"['made']" -> "['productive']";
+}

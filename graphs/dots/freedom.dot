@@ -1,0 +1,15 @@
+strict digraph  {
+	"['available']" -> "['unconfined']";
+	"['unconfined']" -> "['bound']";
+	"['unconfined']" -> "['nonautonomous']";
+	"['unconstrained', 'unrestricted']" -> "['available']";
+	"['unconstrained', 'unrestricted']" -> "['loose']";
+	"['loose']" -> "['unconfined']";
+	"['bound']" -> "['confined']";
+	"['nonautonomous']" -> "['prisonlike']";
+	"['nonautonomous']" -> "['trapped']";
+	"['free', 'liberated']" -> "['independent']";
+	"['independent']" -> "['unconstrained', 'unrestricted']";
+	"['confined']" -> "['prisonlike']";
+	"['confined']" -> "['trapped']";
+}

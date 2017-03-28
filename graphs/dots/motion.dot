@@ -1,0 +1,11 @@
+strict digraph  {
+	"['flying', 'writhing']" -> "['afoot']";
+	"['flying', 'writhing']" -> "['restless']";
+	"['afoot']" -> "['sitting']";
+	"['restless']" -> "['sitting']";
+	"['sitting']" -> "['set', 'stationary', 'still']";
+	"['moving']" -> "['afoot']";
+	"['moving']" -> "['restless']";
+	"['mobile']" -> "['afoot']";
+	"['mobile']" -> "['restless']";
+}

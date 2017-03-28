@@ -1,0 +1,15 @@
+strict digraph  {
+	"['metal-cutting']" -> "['edged']";
+	"['edged']" -> "['sharp-toothed']";
+	"['edged']" -> "['dagger-like', 'fang-like', 'knifelike']";
+	"['sharp-toothed']" -> "['incisive']";
+	"['sharp-toothed']" -> "['chisel-like']";
+	"['sharp-toothed']" -> "['file-like']";
+	"['incisive']" -> "['penetrating']";
+	"['dagger-like', 'fang-like', 'knifelike']" -> "['incisive']";
+	"['dagger-like', 'fang-like', 'knifelike']" -> "['chisel-like']";
+	"['dagger-like', 'fang-like', 'knifelike']" -> "['file-like']";
+	"['keen', 'razor-sharp', 'sharp']" -> "['metal-cutting']";
+	"['keen', 'razor-sharp', 'sharp']" -> "['carnassial']";
+	"['carnassial']" -> "['dagger-like', 'fang-like', 'knifelike']";
+}

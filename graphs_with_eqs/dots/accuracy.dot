@@ -1,0 +1,10 @@
+strict digraph  {
+	"['straight']" -> "['inaccurate', 'wrong']";
+	"['straight']" -> "['hi-fi']";
+	"['straight']" -> "['close']";
+	"['surgical']" -> "['hi-fi']";
+	"['surgical']" -> "['close']";
+	"['wide']" -> "['inaccurate', 'wrong']";
+	"['accurate', 'dead-on', 'right', 'true']" -> "['straight']";
+	"['accurate', 'dead-on', 'right', 'true']" -> "['surgical']";
+}

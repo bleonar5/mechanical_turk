@@ -1,0 +1,7 @@
+strict digraph  {
+	"['deep-water']" -> "['ankle-deep']";
+	"['ankle-deep']" -> "['shallow']";
+	"['deep']" -> "['deep-water']";
+	"['bottomless']" -> "['deep']";
+	"['profound']" -> "['bottomless']";
+}

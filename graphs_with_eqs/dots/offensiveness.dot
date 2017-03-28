@@ -1,0 +1,12 @@
+strict digraph  {
+	"['abusive', 'hideous']" -> "['scrimy']";
+	"['abusive', 'hideous']" -> "['verminous']";
+	"['abusive', 'hideous']" -> "['creepy', 'obnoxious', 'offensive']";
+	"['scrimy']" -> "['ghastly', 'rank']";
+	"['verminous']" -> "['ghastly', 'rank']";
+	"['creepy', 'obnoxious', 'offensive']" -> "['wicked']";
+	"['morbid']" -> "['innocuous', 'inoffensive']";
+	"['ghastly', 'rank']" -> "['innocuous', 'inoffensive']";
+	"['wicked']" -> "['ghastly', 'rank']";
+	"['repulsive']" -> "['abusive', 'hideous']";
+}

@@ -1,0 +1,9 @@
+strict digraph  {
+	"['thorough']" -> "['half']";
+	"['half']" -> "['broken', 'incomplete', 'partial']";
+	"['complete', 'full']" -> "['thorough']";
+	"['complete', 'full']" -> "['absolute', 'full-blown']";
+	"['complete', 'full']" -> "['rudimentary']";
+	"['absolute', 'full-blown']" -> "['half']";
+	"['rudimentary']" -> "['broken', 'incomplete', 'partial']";
+}

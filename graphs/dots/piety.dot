@@ -1,0 +1,8 @@
+strict digraph  {
+	"['devotional']" -> "['holier-than-thou']";
+	"['holier-than-thou']" -> "['godless', 'impious']";
+	"['pious']" -> "['devotional']";
+	"['pious']" -> "['prayerful']";
+	"['prayerful']" -> "['reverent']";
+	"['reverent']" -> "['holier-than-thou']";
+}

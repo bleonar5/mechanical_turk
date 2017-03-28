@@ -1,0 +1,15 @@
+strict digraph  {
+	"['previous']" -> "['gone', 'late']";
+	"['gone', 'late']" -> "['past', 'then']";
+	"['old']" -> "['ancient', 'historical']";
+	"['early']" -> "['past', 'then']";
+	"['past', 'then']" -> "['old']";
+	"['immediate']" -> "['present']";
+	"['present']" -> "['middle']";
+	"['coming']" -> "['immediate']";
+	"['last']" -> "['gone', 'late']";
+	"['last']" -> "['early']";
+	"['middle']" -> "['previous']";
+	"['middle']" -> "['last']";
+	"['future']" -> "['coming']";
+}

@@ -1,0 +1,4 @@
+strict digraph  {
+	"['disloyal']" -> "['mutinous', 'rebellious', 'subversive', 'traitorous']";
+	"['allegiant', 'loyal']" -> "['disloyal']";
+}

@@ -1,0 +1,4 @@
+strict digraph  {
+	"['domestic', 'housewifely', 'husbandly']" -> "['home-loving', 'home-style']";
+	"['home-loving', 'home-style']" -> "['undomestic']";
+}

@@ -1,0 +1,3 @@
+strict digraph  {
+	"['certain', 'definite', 'sure', 'sure_as_shooting']" -> "['uncertain']";
+}

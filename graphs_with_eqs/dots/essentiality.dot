@@ -1,0 +1,9 @@
+strict digraph  {
+	"['substantial']" -> "['accessorial']";
+	"['incidental']" -> "['accessorial']";
+	"['incidental']" -> "['inessential']";
+	"['must', 'staple', 'vital']" -> "['substantial']";
+	"['must', 'staple', 'vital']" -> "['essential']";
+	"['virtual']" -> "['accessorial']";
+	"['primary']" -> "['virtual']";
+}

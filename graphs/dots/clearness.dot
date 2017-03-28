@@ -1,0 +1,5 @@
+strict digraph  {
+	"['unclouded']" -> "['unfrosted']";
+	"['unfrosted']" -> "['liquid']";
+	"['clear', 'translucent', 'transparent']" -> "['unclouded']";
+}

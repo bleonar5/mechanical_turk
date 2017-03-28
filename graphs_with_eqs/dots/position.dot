@@ -1,0 +1,8 @@
+strict digraph  {
+	"['stooping']" -> "['supine']";
+	"['straight', 'vertical']" -> "['erectile']";
+	"['straight', 'vertical']" -> "['passant', 'recumbent']";
+	"['passant', 'recumbent']" -> "['stooping']";
+	"['passant', 'recumbent']" -> "['bent']";
+	"['semi-erect']" -> "['passant', 'recumbent']";
+}

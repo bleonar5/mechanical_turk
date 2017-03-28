@@ -1,0 +1,8 @@
+strict digraph  {
+	"['assured']" -> "['shy']";
+	"['self-confident']" -> "['assured']";
+	"['self-confident']" -> "['positive']";
+	"['confident']" -> "['positive']";
+	"['reassured']" -> "['assured']";
+	"['reassured']" -> "['positive']";
+}

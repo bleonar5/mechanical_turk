@@ -1,0 +1,23 @@
+strict digraph  {
+	"['upper-middle-class']" -> "['secondary']";
+	"['upper-middle-class']" -> "['lower-middle-class']";
+	"['upper-middle-class']" -> "['subordinate']";
+	"['lower-middle-class']" -> "['lower-class']";
+	"['subordinate']" -> "['lower-class']";
+	"['superior']" -> "['upper-middle-class']";
+	"['superior']" -> "['bourgeois']";
+	"['superior']" -> "['associate']";
+	"['bourgeois']" -> "['secondary']";
+	"['associate']" -> "['middle-class']";
+	"['associate']" -> "['assistant']";
+	"['middle-class']" -> "['secondary']";
+	"['middle-class']" -> "['lower-middle-class']";
+	"['middle-class']" -> "['subordinate']";
+	"['governing', 'supreme']" -> "['upper-middle-class']";
+	"['governing', 'supreme']" -> "['bourgeois']";
+	"['governing', 'supreme']" -> "['associate']";
+	"['assistant']" -> "['lower-middle-class']";
+	"['dominant']" -> "['upper-middle-class']";
+	"['dominant']" -> "['bourgeois']";
+	"['dominant']" -> "['associate']";
+}

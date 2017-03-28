@@ -1,0 +1,9 @@
+strict digraph  {
+	"['entertaining']" -> "['putdownable']";
+	"['entertaining']" -> "['narcotic']";
+	"['putdownable']" -> "['insipid', 'pedestrian']";
+	"['narcotic']" -> "['insipid', 'pedestrian']";
+	"['insipid', 'pedestrian']" -> "['uninteresting']";
+	"['amusing', 'interesting']" -> "['entertaining']";
+	"['fascinating', 'intriguing', 'newsworthy', 'ponderous']" -> "['amusing', 'interesting']";
+}

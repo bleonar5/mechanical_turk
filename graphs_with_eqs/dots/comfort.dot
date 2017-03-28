@@ -1,0 +1,9 @@
+strict digraph  {
+	"['comfortless']" -> "['miserable', 'painful']";
+	"['uncomfortable', 'uneasy']" -> "['miserable', 'painful']";
+	"['bad']" -> "['comfortless']";
+	"['comfortable']" -> "['uncomfortable', 'uneasy']";
+	"['comfortable']" -> "['bad']";
+	"['homely', 'snug', 'soothing', 'warm']" -> "['uncomfortable', 'uneasy']";
+	"['homely', 'snug', 'soothing', 'warm']" -> "['bad']";
+}

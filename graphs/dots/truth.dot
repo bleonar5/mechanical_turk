@@ -1,0 +1,11 @@
+strict digraph  {
+	"['trumped-up']" -> "['false', 'untrue']";
+	"['truthful']" -> "['real']";
+	"['truthful']" -> "['true']";
+	"['real']" -> "['sure']";
+	"['true']" -> "['sure']";
+	"['sure']" -> "['trumped-up']";
+	"['sure']" -> "['specious']";
+	"['specious']" -> "['mendacious']";
+	"['mendacious']" -> "['false', 'untrue']";
+}

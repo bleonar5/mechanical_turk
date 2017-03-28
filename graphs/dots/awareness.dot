@@ -1,0 +1,9 @@
+strict digraph  {
+	"['oblivious']" -> "['unaware']";
+	"['oblivious']" -> "['unconscious']";
+	"['conscious']" -> "['oblivious']";
+	"['conscious']" -> "['unsuspecting']";
+	"['unsuspecting']" -> "['unaware']";
+	"['unsuspecting']" -> "['unconscious']";
+	"['aware']" -> "['conscious']";
+}

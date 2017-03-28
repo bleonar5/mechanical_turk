@@ -1,0 +1,5 @@
+strict digraph  {
+	"['neoliberal', 'progressive', 'welfare-statist']" -> "['civil-libertarian', 'ultraconservative']";
+	"['civil-libertarian', 'ultraconservative']" -> "['socialized']";
+	"['socialized']" -> "['traditionalist']";
+}

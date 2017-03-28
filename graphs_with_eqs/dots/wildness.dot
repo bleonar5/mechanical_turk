@@ -1,0 +1,8 @@
+strict digraph  {
+	"['wild']" -> "['semi-wild']";
+	"['wild']" -> "['unbroken']";
+	"['wild']" -> "['undomesticated']";
+	"['savage']" -> "['semi-wild']";
+	"['savage']" -> "['unbroken']";
+	"['savage']" -> "['undomesticated']";
+}

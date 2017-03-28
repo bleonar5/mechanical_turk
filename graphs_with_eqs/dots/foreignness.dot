@@ -1,0 +1,4 @@
+strict digraph  {
+	"['alien', 'foreign', 'foreign-born', 'imported', 'nonnative']" -> "['unnaturalised']";
+	"['unnaturalised']" -> "['tramontane']";
+}

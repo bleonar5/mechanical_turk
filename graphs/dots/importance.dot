@@ -1,0 +1,12 @@
+strict digraph  {
+	"['heavy']" -> "['measurable']";
+	"['measurable']" -> "['great']";
+	"['great']" -> "['inconsequential', 'unimportant']";
+	"['chief']" -> "['inconsequential', 'unimportant']";
+	"['essential']" -> "['central', 'grand', 'important']";
+	"['central', 'grand', 'important']" -> "['heavy']";
+	"['central', 'grand', 'important']" -> "['big']";
+	"['central', 'grand', 'important']" -> "['serious']";
+	"['serious']" -> "['measurable']";
+	"['serious']" -> "['chief']";
+}

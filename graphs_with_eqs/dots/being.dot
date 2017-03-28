@@ -1,0 +1,5 @@
+strict digraph  {
+	"['vanished']" -> "['nonexistent', 'nonextant']";
+	"['existing']" -> "['nonexistent', 'nonextant']";
+	"['existing']" -> "['missing']";
+}

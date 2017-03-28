@@ -1,0 +1,8 @@
+strict digraph  {
+	"['general']" -> "['special', 'uncommon']";
+	"['grassroots']" -> "['special', 'uncommon']";
+	"['rare', 'unusual']" -> "['special', 'uncommon']";
+	"['average']" -> "['general']";
+	"['frequent']" -> "['special', 'uncommon']";
+	"['standard']" -> "['special', 'uncommon']";
+}

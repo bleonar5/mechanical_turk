@@ -1,0 +1,6 @@
+strict digraph  {
+	"['serious']" -> "['noncritical']";
+	"['noncritical']" -> "['acritical']";
+	"['desperate']" -> "['acritical']";
+	"['critical']" -> "['noncritical']";
+}

@@ -1,0 +1,5 @@
+strict digraph  {
+	"['yellow']" -> "['unsensational']";
+	"['screaming', 'shocking']" -> "['yellow']";
+	"['sensational']" -> "['screaming', 'shocking']";
+}

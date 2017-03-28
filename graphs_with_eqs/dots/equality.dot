@@ -1,0 +1,21 @@
+strict digraph  {
+	"['isometric']" -> "['half-and-half']";
+	"['isometric']" -> "['isochronal']";
+	"['half-and-half']" -> "['unbalanced']";
+	"['isochronal']" -> "['unbalanced']";
+	"['isochronal']" -> "['anisometric', 'nonequivalent']";
+	"['equilateral']" -> "['isometric']";
+	"['equilateral']" -> "['uneven']";
+	"['equilateral']" -> "['isoclinal']";
+	"['uneven']" -> "['unequal']";
+	"['isoclinal']" -> "['unbalanced']";
+	"['isoclinal']" -> "['anisometric', 'nonequivalent']";
+	"['coequal']" -> "['isometric']";
+	"['coequal']" -> "['isoclinal']";
+	"['equal', 'equivalent', 'even']" -> "['uneven']";
+	"['equal', 'equivalent', 'even']" -> "['coequal']";
+	"['equal', 'equivalent', 'even']" -> "['equidistant']";
+	"['equidistant']" -> "['half-and-half']";
+	"['equidistant']" -> "['unequal']";
+	"['anisometric', 'nonequivalent']" -> "['unequal']";
+}
