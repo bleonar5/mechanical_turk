@@ -1,16 +1,14 @@
 strict digraph  {
-	"['passing']" -> "['incautious', 'reckless']";
-	"['careful', 'studious', 'thorough']" -> "['conscientious']";
-	"['careful', 'studious', 'thorough']" -> "['careless']";
-	"['careful', 'studious', 'thorough']" -> "['sloppy']";
+	"['passing']" -> "['careless']";
+	"['careless']" -> "['incautious', 'offhand', 'reckless']";
 	"['conscientious']" -> "['passing']";
-	"['offhand']" -> "['incautious', 'reckless']";
-	"['offhand']" -> "['sloppy']";
-	"['detailed']" -> "['conscientious']";
-	"['detailed']" -> "['careless']";
-	"['detailed']" -> "['offhand']";
-	"['overcareful']" -> "['passing']";
+	"['incautious', 'offhand', 'reckless']" -> "['sloppy']";
+	"['careful', 'thorough']" -> "['studious']";
+	"['careful', 'thorough']" -> "['particular']";
+	"['studious']" -> "['passing']";
 	"['particular']" -> "['conscientious']";
-	"['particular']" -> "['careless']";
-	"['particular']" -> "['sloppy']";
+	"['particular']" -> "['detailed']";
+	"['detailed']" -> "['passing']";
+	"['overcareful']" -> "['studious']";
+	"['overcareful']" -> "['particular']";
 }

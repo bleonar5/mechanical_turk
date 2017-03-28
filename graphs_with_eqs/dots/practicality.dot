@@ -1,12 +1,9 @@
 strict digraph  {
 	"['working']" -> "['serviceable']";
-	"['working']" -> "['unwieldy']";
-	"['applicative', 'practical']" -> "['serviceable']";
-	"['applicative', 'practical']" -> "['unwieldy']";
-	"['applicative', 'practical']" -> "['unfunctional']";
-	"['applicative', 'practical']" -> "['impractical']";
-	"['functional']" -> "['serviceable']";
+	"['serviceable']" -> "['unimaginative']";
 	"['unimaginative']" -> "['unwieldy']";
 	"['unimaginative']" -> "['unfunctional']";
-	"['unimaginative']" -> "['impractical']";
+	"['applicative', 'practical']" -> "['working']";
+	"['functional']" -> "['working']";
+	"['unwieldy']" -> "['impractical']";
 }

@@ -60,6 +60,7 @@ with open('kappa_scores.csv','rb') as f:
 	reader = list(csv.reader(f))
 
 	for row in reader[1:]:
+		print row
 		edges = []
 		edge = ()
 		deps = row[6:]

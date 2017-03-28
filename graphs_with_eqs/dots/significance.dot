@@ -1,4 +1,4 @@
 strict digraph  {
 	"['remarkable']" -> "['trivial', 'unimportant']";
-	"['epoch-making', 'important', 'momentous', 'monumental', 'world-shaking']" -> "['trivial', 'unimportant']";
+	"['epoch-making', 'important', 'momentous', 'monumental', 'world-shaking']" -> "['remarkable']";
 }

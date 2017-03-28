@@ -1,13 +1,8 @@
 strict digraph  {
-	"['becoming']" -> "['improper']";
-	"['becoming']" -> "['indecent']";
-	"['becoming']" -> "['out-of-the-way']";
-	"['indecent']" -> "['wrong']";
-	"['fitting']" -> "['improper']";
-	"['fitting']" -> "['indecent']";
-	"['fitting']" -> "['out-of-the-way']";
-	"['right']" -> "['improper']";
-	"['right']" -> "['indecent']";
+	"['out-of-the-way']" -> "['wrong']";
+	"['out-of-the-way']" -> "['improper']";
+	"['improper']" -> "['indecent']";
+	"['becoming', 'fitting']" -> "['right']";
 	"['right']" -> "['out-of-the-way']";
-	"['proper']" -> "['out-of-the-way']";
+	"['proper']" -> "['becoming', 'fitting']";
 }

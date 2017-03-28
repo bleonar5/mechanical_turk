@@ -1,20 +1,16 @@
 strict digraph  {
-	"['old']" -> "['junior']";
-	"['old']" -> "['early', 'rising']";
-	"['junior']" -> "['recent']";
-	"['early', 'rising']" -> "['new', 'young']";
-	"['early', 'rising']" -> "['recent']";
-	"['early', 'rising']" -> "['virgin']";
-	"['mature']" -> "['junior']";
-	"['mature']" -> "['new', 'young']";
-	"['mature']" -> "['fresh']";
-	"['ancient']" -> "['junior']";
-	"['ancient']" -> "['early', 'rising']";
-	"['used']" -> "['junior']";
-	"['used']" -> "['early', 'rising']";
-	"['gray']" -> "['junior']";
-	"['gray']" -> "['early', 'rising']";
-	"['virgin']" -> "['fresh']";
+	"['old']" -> "['used']";
+	"['old']" -> "['gray']";
+	"['used']" -> "['prime']";
+	"['gray']" -> "['prime']";
+	"['mature']" -> "['used']";
+	"['mature']" -> "['gray']";
+	"['ancient']" -> "['used']";
+	"['ancient']" -> "['gray']";
 	"['prime']" -> "['junior']";
-	"['prime']" -> "['early', 'rising']";
+	"['junior']" -> "['recent']";
+	"['recent']" -> "['early', 'rising']";
+	"['recent']" -> "['new', 'young']";
+	"['recent']" -> "['virgin']";
+	"['virgin']" -> "['fresh']";
 }

@@ -1,3 +1,6 @@
 strict digraph  {
-	"['straight']" -> "['erroneous', 'false', 'wrong']";
+	"['straight']" -> "['fallacious']";
+	"['fallacious']" -> "['erroneous', 'false', 'wrong']";
+	"['right']" -> "['straight']";
+	"['accurate', 'letter-perfect']" -> "['right']";
 }

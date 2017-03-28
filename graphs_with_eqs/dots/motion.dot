@@ -1,8 +1,7 @@
 strict digraph  {
-	"['flying', 'writhing']" -> "['afoot']";
-	"['afoot']" -> "['set', 'stationary', 'still']";
-	"['restless']" -> "['sitting']";
 	"['sitting']" -> "['set', 'stationary', 'still']";
-	"['moving']" -> "['set', 'stationary', 'still']";
-	"['mobile']" -> "['set', 'stationary', 'still']";
+	"['afoot']" -> "['sitting']";
+	"['restless']" -> "['sitting']";
+	"['flying', 'mobile', 'moving', 'writhing']" -> "['afoot']";
+	"['flying', 'mobile', 'moving', 'writhing']" -> "['restless']";
 }

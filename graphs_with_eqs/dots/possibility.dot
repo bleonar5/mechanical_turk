@@ -1,8 +1,7 @@
 strict digraph  {
-	"['feasible']" -> "['hopeless', 'impossible', 'unachievable']";
-	"['possible']" -> "['feasible']";
+	"['feasible']" -> "['contingent']";
+	"['contingent']" -> "['hopeless', 'impossible', 'unachievable']";
 	"['possible']" -> "['accomplishable']";
 	"['accomplishable']" -> "['affirmable', 'attainable']";
-	"['affirmable', 'attainable']" -> "['hopeless', 'impossible', 'unachievable']";
-	"['contingent']" -> "['hopeless', 'impossible', 'unachievable']";
+	"['affirmable', 'attainable']" -> "['feasible']";
 }

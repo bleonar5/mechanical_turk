@@ -1,6 +1,6 @@
 strict digraph  {
 	"['highly_sensitive']" -> "['sensitive']";
 	"['sensitive']" -> "['delicate', 'erogenous', 'irritable', 'photosensitive', 'radiosensitive', 'responsive']";
-	"['delicate', 'erogenous', 'irritable', 'photosensitive', 'radiosensitive', 'responsive']" -> "['dead']";
+	"['delicate', 'erogenous', 'irritable', 'photosensitive', 'radiosensitive', 'responsive']" -> "['insensitive', 'unreactive']";
 	"['insensitive', 'unreactive']" -> "['dead']";
 }

@@ -1,4 +1,4 @@
 strict digraph  {
+	"['crisp']" -> "['hot']";
 	"['fresh', 'fresh-cut', 'new-made']" -> "['crisp']";
-	"['fresh', 'fresh-cut', 'new-made']" -> "['hot']";
 }

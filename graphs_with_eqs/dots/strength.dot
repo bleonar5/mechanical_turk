@@ -1,15 +1,14 @@
 strict digraph  {
-	"['pale']" -> "['dainty', 'delicate', 'feeble', 'puny', 'vulnerable']";
-	"['dainty', 'delicate', 'feeble', 'puny', 'vulnerable']" -> "['fragile', 'weak']";
-	"['virile']" -> "['pale']";
-	"['virile']" -> "['tender']";
-	"['rugged', 'tough']" -> "['virile']";
-	"['rugged', 'tough']" -> "['stiff']";
-	"['rugged', 'tough']" -> "['reinforced']";
-	"['stiff']" -> "['pale']";
-	"['stiff']" -> "['tender']";
-	"['fortified', 'strong']" -> "['rugged', 'tough']";
+	"['fortified', 'strong']" -> "['powerful']";
 	"['powerful']" -> "['rugged', 'tough']";
+	"['stiff']" -> "['faint']";
+	"['stiff']" -> "['pale']";
 	"['faint']" -> "['dainty', 'delicate', 'feeble', 'puny', 'vulnerable']";
 	"['faint']" -> "['tender']";
+	"['pale']" -> "['dainty', 'delicate', 'feeble', 'puny', 'vulnerable']";
+	"['pale']" -> "['tender']";
+	"['rugged', 'tough']" -> "['reinforced']";
+	"['reinforced']" -> "['virile']";
+	"['dainty', 'delicate', 'feeble', 'puny', 'vulnerable']" -> "['fragile', 'weak']";
+	"['virile']" -> "['stiff']";
 }

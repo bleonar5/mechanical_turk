@@ -1,17 +1,14 @@
 strict digraph  {
 	"['worth']" -> "['unmeritorious']";
-	"['precious']" -> "['commendable']";
-	"['commendable']" -> "['creditable']";
-	"['quotable']" -> "['unworthy']";
-	"['quotable']" -> "['meritorious', 'worthwhile']";
-	"['meritorious', 'worthwhile']" -> "['commendable']";
-	"['meritorious', 'worthwhile']" -> "['notable', 'worthy']";
-	"['model']" -> "['unworthy']";
+	"['unmeritorious']" -> "['unworthy']";
+	"['precious']" -> "['model']";
+	"['precious']" -> "['valuable']";
 	"['model']" -> "['meritorious', 'worthwhile']";
-	"['sacred']" -> "['precious']";
-	"['sacred']" -> "['notable', 'worthy']";
+	"['valuable']" -> "['meritorious', 'worthwhile']";
+	"['commendable']" -> "['notable', 'worthy']";
 	"['notable', 'worthy']" -> "['worth']";
 	"['notable', 'worthy']" -> "['creditable']";
-	"['valuable']" -> "['commendable']";
-	"['valuable']" -> "['notable', 'worthy']";
+	"['meritorious', 'worthwhile']" -> "['commendable']";
+	"['sacred']" -> "['precious']";
+	"['creditable']" -> "['unmeritorious']";
 }

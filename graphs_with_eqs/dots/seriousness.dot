@@ -1,18 +1,15 @@
 strict digraph  {
-	"['thoughtful']" -> "['flippant']";
-	"['thoughtful']" -> "['silly']";
-	"['flippant']" -> "['frivolous']";
-	"['silly']" -> "['trivial']";
-	"['grave', 'overserious']" -> "['thoughtful']";
+	"['thoughtful']" -> "['light']";
+	"['light']" -> "['silly']";
+	"['light']" -> "['flippant']";
 	"['grave', 'overserious']" -> "['sobering']";
 	"['grave', 'overserious']" -> "['serious']";
-	"['grave', 'overserious']" -> "['earnest']";
-	"['sobering']" -> "['flippant']";
-	"['sobering']" -> "['silly']";
-	"['serious']" -> "['trivial']";
-	"['earnest']" -> "['flippant']";
-	"['earnest']" -> "['silly']";
+	"['sobering']" -> "['thoughtful']";
+	"['sobering']" -> "['earnest']";
+	"['serious']" -> "['thoughtful']";
+	"['serious']" -> "['earnest']";
+	"['silly']" -> "['trivial']";
 	"['trivial']" -> "['frivolous']";
-	"['light']" -> "['flippant']";
-	"['light']" -> "['silly']";
+	"['earnest']" -> "['light']";
+	"['flippant']" -> "['frivolous']";
 }

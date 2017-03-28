@@ -257,27 +257,28 @@ with open("simsetData.csv",'r') as f:
 					for iAdj in adj_list:
 						for jAdj in adj_list[adj_list.index(iAdj) + 1:]:
 							comp = ''
-							dep_list.append(iAdj + ':' +jAdj)
+							
 							for x in xrange(5):
 								#print str(dic[iAdj]) + ' ' + str(dic[jAdj])
 								if dict_list[three_set[x]][iAdj] > dict_list[three_set[x]][jAdj]:
 									#mat[x].append(1)
 									mat_li.append((iAdj + ':' + jAdj,1))
+									dep_list.append(iAdj + ':' +jAdj)
 								else:
 									if dict_list[three_set[x]][iAdj] == dict_list[three_set[x]][jAdj]:
 										#mat[x].append(0)
 										mat_li.append((iAdj + ':' + jAdj,0))
+										dep_list.append(iAdj + ':' +jAdj)
 									else:
 										#mat[x].append(-1)
-										mat_li.append((iAdj + ':' + jAdj,-1))
+										mat_li.append((jAdj + ':' + iAdj,1))
+										dep_list.append(jAdj + ':' +iAdj)
 							count += 1
 					#print mat_li
 					#fleiss = computeKappa(mat)
 					for dep in dep_list:
 						for x in [-1,0,1]:
 							if len([tup for tup in mat_li if tup[0] == dep and tup[1] == x]) >= 3:
-								if x == -1:
-									sign = ' < '
 								if x== 0:
 									sign = ' = '
 								if x == 1:
@@ -286,7 +287,7 @@ with open("simsetData.csv",'r') as f:
 
 
 					try:
-						fleiss = fleiss_kappa(mat_li,5,3)
+						fleiss = fleiss_kappa(mat_li,5,2)
 					except:
 						fleiss = 0
 					try:

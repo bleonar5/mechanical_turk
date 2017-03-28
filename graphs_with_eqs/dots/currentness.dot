@@ -1,5 +1,4 @@
 strict digraph  {
-	"['contemporary']" -> "['dead', 'obsolescent', 'obsolete', 'outdated']";
-	"['contemporary']" -> "['noncurrent']";
-	"['current', 'latest', 'live', 'occurrent', 'on-going', 'on-line', 'topical', 'up-to-date']" -> "['contemporary']";
+	"['current', 'latest', 'live', 'on-going', 'up-to-date']" -> "['contemporary']";
+	"['contemporary']" -> "['dead', 'noncurrent', 'obsolescent', 'obsolete', 'outdated']";
 }

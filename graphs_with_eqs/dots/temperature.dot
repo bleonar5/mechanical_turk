@@ -1,18 +1,12 @@
 strict digraph  {
 	"['chilly']" -> "['cold']";
-	"['chilly']" -> "['icy']";
-	"['thermal']" -> "['chilly']";
-	"['thermal']" -> "['warm']";
-	"['warm']" -> "['cold']";
-	"['warm']" -> "['cool']";
+	"['cold']" -> "['icy']";
 	"['hot']" -> "['heated', 'tropical']";
-	"['heated', 'tropical']" -> "['chilly']";
 	"['heated', 'tropical']" -> "['warm']";
-	"['baking']" -> "['thermal']";
+	"['sizzling']" -> "['hot']";
+	"['sizzling']" -> "['baking']";
 	"['baking']" -> "['heated', 'tropical']";
-	"['baking']" -> "['lukewarm']";
-	"['lukewarm']" -> "['chilly']";
+	"['cool']" -> "['chilly']";
+	"['warm']" -> "['lukewarm']";
 	"['lukewarm']" -> "['cool']";
-	"['fervent', 'sizzling']" -> "['hot']";
-	"['fervent', 'sizzling']" -> "['baking']";
 }

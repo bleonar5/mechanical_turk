@@ -1,10 +1,16 @@
 strict digraph  {
-	"['titillating']" -> "['breathless', 'electric']";
-	"['breathless', 'electric']" -> "['heady']";
-	"['breathless', 'electric']" -> "['unexciting']";
-	"['tame']" -> "['commonplace']";
-	"['commonplace']" -> "['uninspired']";
-	"['heady']" -> "['tame']";
-	"['tingling']" -> "['breathless', 'electric']";
-	"['exciting', 'exhilarating', 'thrilling']" -> "['breathless', 'electric']";
+	"['titillating']" -> "['tame', 'uninspired']";
+	"['titillating']" -> "['commonplace']";
+	"['tame', 'uninspired']" -> "['unexciting']";
+	"['commonplace']" -> "['unexciting']";
+	"['electric', 'exciting', 'exhilarating', 'thrilling']" -> "['titillating']";
+	"['electric', 'exciting', 'exhilarating', 'thrilling']" -> "['tingling']";
+	"['electric', 'exciting', 'exhilarating', 'thrilling']" -> "['heady']";
+	"['electric', 'exciting', 'exhilarating', 'thrilling']" -> "['breathless']";
+	"['tingling']" -> "['tame', 'uninspired']";
+	"['tingling']" -> "['commonplace']";
+	"['heady']" -> "['tame', 'uninspired']";
+	"['heady']" -> "['commonplace']";
+	"['breathless']" -> "['tame', 'uninspired']";
+	"['breathless']" -> "['commonplace']";
 }

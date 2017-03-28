@@ -1,4 +1,4 @@
 strict digraph  {
 	"['bodily', 'material', 'physical']" -> "['corporate']";
-	"['bodily', 'material', 'physical']" -> "['immaterial', 'intangible']";
+	"['corporate']" -> "['immaterial', 'intangible']";
 }
